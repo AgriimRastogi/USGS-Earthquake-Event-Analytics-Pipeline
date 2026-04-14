@@ -3,15 +3,16 @@ import os
 import pandas as pd
 from datetime import datetime
 
+#get today's file
 today_str = datetime.now().strftime("%Y-%m-%d")
-file_name = f"EQdata_{today_str}.json"
-
+file_name = f"EQdataBronze_{today_str}.json"
 with open(  f"Bronze/{file_name}", "r") as file:
     bronze_data = json.load(file)
     
 Eartquakes= bronze_data.get("features",[])
-flat_records = []
 
+#store each EQ event as a dictonary in a list
+flat_records = []
 for EQ in Eartquakes:
     event_id = EQ.get("id")
     properties = EQ.get("properties", {})
@@ -30,3 +31,16 @@ for EQ in Eartquakes:
         "depth_km": Eartquakes[2]
     }
     flat_records.append(flat_record)
+    
+df = pd.DataFrame(flat_records)
+
+#convert time to proper format
+df["event_time_utc"] = pd.to_datetime(df["event_time_utc"], unit="ms")
+df["updated_time_utc"] = pd.to_datetime(df["updated_time_utc"], unit="ms")
+
+#there shuldnt be any dups, but if there are remove them
+df = df.drop_duplicates(subset=["event_id"], keep="last")
+    
+#save flat file    
+silver_path=f"Silver/EQdataSilver_{today_str}.parquet"
+df.to_parquet(silver_path, index=False)

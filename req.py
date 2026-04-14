@@ -10,7 +10,7 @@ response = requests.get(url)
 
 today_str = datetime.now().strftime("%Y-%m-%d")
 os.makedirs("Bronze", exist_ok=True)
-file_name = f"EQdata_{today_str}.json"
+file_name = f"EQdataBronze_{today_str}.json"
 
 with open(  f"Bronze/{file_name}", "w") as file:
     json.dump(response.json(), file, indent= 4)
