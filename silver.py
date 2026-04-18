@@ -1,46 +1,57 @@
 import json
 import os
 import pandas as pd
+import reverse_geocoder
 from datetime import datetime
 
 #get today's file
-today_str = datetime.now().strftime("%Y-%m-%d")
-file_name = f"EQdataBronze_{today_str}.json"
-with open(  f"Bronze/{file_name}", "r") as file:
-    bronze_data = json.load(file)
-    
-Eartquakes= bronze_data.get("features",[])
+if __name__ == '__main__':  #We need this because of geocoder file handling issue in windows
+    timestamp = datetime.now().strftime("%Y-%m-%d-%H")
+    file_name = f"EQdataBronze_{timestamp}.json"
 
-#store each EQ event as a dictonary in a list
-flat_records = []
-for EQ in Eartquakes:
-    event_id = EQ.get("id")
-    properties = EQ.get("properties", {})
-    coordinates = EQ.get("geometry", {}).get("coordinates",[None,None,None])
-    flat_record = {
-        "event_id": event_id,
-        "event_time_utc": properties.get("time"),
-        "updated_time_utc": properties.get("updated"),
-        "magnitude": properties.get("mag"),
-        "magnitude_type": properties.get("magType"),
-        "place": properties.get("place"),
-        "tsunami_flag": properties.get("tsunami"),
-        "significance_score": properties.get("sig"),
-        "longitude": Eartquakes[0],
-        "latitude": Eartquakes[1],
-        "depth_km": Eartquakes[2]
-    }
-    flat_records.append(flat_record)
-    
-df = pd.DataFrame(flat_records)
+    latlon=[]
 
-#convert time to proper format
-df["event_time_utc"] = pd.to_datetime(df["event_time_utc"], unit="ms")
-df["updated_time_utc"] = pd.to_datetime(df["updated_time_utc"], unit="ms")
+    with open(  f"Bronze/{file_name}", "r") as file:
+        bronze_data = json.load(file)
 
-#there shuldnt be any dups, but if there are remove them
-df = df.drop_duplicates(subset=["event_id"], keep="last")
-    
-#save flat file    
-silver_path=f"Silver/EQdataSilver_{today_str}.parquet"
-df.to_parquet(silver_path, index=False)
+    Eartquakes= bronze_data.get("features",[])
+    #store each EQ event as a dictonary in a list
+    flat_records = []
+    for EQ in Eartquakes:
+        event_id = EQ.get("id")
+        properties = EQ.get("properties", {})
+        coordinates = EQ.get("geometry", {}).get("coordinates",[None,None,None])
+        lon=coordinates[0]
+        lat=coordinates[1]
+        latlon += [(lat,lon)]
+        mg=properties.get("mag")
+        
+        flat_record = {
+            "event_id": event_id,
+            "event_time_utc": properties.get("time"),
+            "updated_time_utc": properties.get("updated"),
+            "magnitude": mg,
+            "magnitude_type": properties.get("magType"),
+            "place": properties.get("place"),
+            "tsunami_flag": properties.get("tsunami"),
+            "significance_score": properties.get("sig"),
+            "longitude": lon,
+            "latitude": lat,
+            "depth_km": coordinates[2],
+            "band": "none" if mg==None else "<2" if mg<2 else "2-4" if mg<4 else "4-6" if mg<6 else "6-8" if mg<8 else ">8",
+        }        
+        flat_records.append(flat_record)
+
+    df = pd.DataFrame(flat_records)
+    df['country'] =[x['cc'] for x in reverse_geocoder.search(latlon,mode='1')] #returns list of dictionaries
+
+    #convert time to proper format
+    df["event_time_utc"] = pd.to_datetime(df["event_time_utc"], unit="ms")
+    df["updated_time_utc"] = pd.to_datetime(df["updated_time_utc"], unit="ms")
+
+    #there shuldnt be any dups, but if there are remove them
+    df = df.drop_duplicates(subset=["event_id"], keep="last")
+        
+    #save flat file     
+    silver_path=f"Silver/EQdataSilver_{timestamp}.parquet"
+    df.to_parquet(silver_path, index=False)

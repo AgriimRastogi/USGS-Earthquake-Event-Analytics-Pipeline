@@ -1,0 +1,341 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776498590000,
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+        "title": "USGS All Earthquakes, Past Hour",
+        "status": 200,
+        "api": "2.3.0",
+        "count": 8
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.14,
+                "place": "4 km SE of The Geysers, CA",
+                "time": 1776498462910,
+                "updated": 1776498557184,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75346962",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75346962.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 20,
+                "net": "nc",
+                "code": "75346962",
+                "ids": ",nc75346962,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 9,
+                "dmin": 0.01092,
+                "rms": 0.02,
+                "gap": 117,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.1 - 4 km SE of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.728332519531,
+                    38.7509994506836,
+                    0.740000009536743
+                ]
+            },
+            "id": "nc75346962"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.48,
+                "place": "4 km WSW of Anza, CA",
+                "time": 1776498039310,
+                "updated": 1776498241883,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41444128",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41444128.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 4,
+                "net": "ci",
+                "code": "41444128",
+                "ids": ",ci41444128,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 38,
+                "dmin": 0.03512,
+                "rms": 0.15,
+                "gap": 29,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.5 - 4 km WSW of Anza, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.713833333333,
+                    33.5361666666667,
+                    6.11
+                ]
+            },
+            "id": "ci41444128"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.4,
+                "place": "71 km WNW of Beluga, Alaska",
+                "time": 1776496933462,
+                "updated": 1776497138402,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hozjgk",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hozjgk.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 2,
+                "net": "ak",
+                "code": "a2026hozjgk",
+                "ids": ",aka2026hozjgk,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 7,
+                "dmin": 0.2,
+                "rms": 1.5,
+                "gap": 232,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.4 - 71 km WNW of Beluga, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -152.296,
+                    61.405,
+                    5
+                ]
+            },
+            "id": "aka2026hozjgk"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.87,
+                "place": "6 km SW of Volcano, Hawaii",
+                "time": 1776496837850,
+                "updated": 1776497052440,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74938267",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74938267.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 54,
+                "net": "hv",
+                "code": "74938267",
+                "ids": ",hv74938267,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 18,
+                "dmin": 0.01038,
+                "rms": 0.180000007,
+                "gap": 44,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.9 - 6 km SW of Volcano, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.282501220703,
+                    19.4073333740234,
+                    0.25
+                ]
+            },
+            "id": "hv74938267"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.18,
+                "place": "7 km NW of The Geysers, CA",
+                "time": 1776496547750,
+                "updated": 1776497841270,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75346957",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75346957.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 21,
+                "net": "nc",
+                "code": "75346957",
+                "ids": ",nc75346957,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 27,
+                "dmin": 0.001897,
+                "rms": 0.02,
+                "gap": 61,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.2 - 7 km NW of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.807830810547,
+                    38.8226661682129,
+                    2.75
+                ]
+            },
+            "id": "nc75346957"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.62,
+                "place": "6 km WSW of Petrolia, CA",
+                "time": 1776496118870,
+                "updated": 1776498140304,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75346947",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75346947.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 40,
+                "net": "nc",
+                "code": "75346947",
+                "ids": ",nc75346947,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 6,
+                "dmin": 0.01255,
+                "rms": 0.01,
+                "gap": 196,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.6 - 6 km WSW of Petrolia, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -124.343002319336,
+                    40.3009986877441,
+                    8.0600004196167
+                ]
+            },
+            "id": "nc75346947"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.8,
+                "place": "38 km NE of Paxson, Alaska",
+                "time": 1776496084072,
+                "updated": 1776496162444,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hoywvd",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hoywvd.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 10,
+                "net": "ak",
+                "code": "a2026hoywvd",
+                "ids": ",aka2026hoywvd,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 10,
+                "dmin": 0.3,
+                "rms": 0.6,
+                "gap": 76,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.8 - 38 km NE of Paxson, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -145.128,
+                    63.353,
+                    5
+                ]
+            },
+            "id": "aka2026hoywvd"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.86,
+                "place": "12 km NE of P\u0101hala, Hawaii",
+                "time": 1776495194060,
+                "updated": 1776495518830,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74938252",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74938252.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 53,
+                "net": "hv",
+                "code": "74938252",
+                "ids": ",hv74938252,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 30,
+                "dmin": 0.03074,
+                "rms": 0.159999996,
+                "gap": 138,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.9 - 12 km NE of P\u0101hala, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.385330200195,
+                    19.2661666870117,
+                    29.4300003051758
+                ]
+            },
+            "id": "hv74938252"
+        }
+    ],
+    "bbox": [
+        -155.38533020019,
+        19.266166687012,
+        0.25,
+        -116.71383333333,
+        63.353,
+        29.430000305176
+    ]
+}
