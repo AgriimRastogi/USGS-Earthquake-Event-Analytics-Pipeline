@@ -1,0 +1,381 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776595820000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-19T02:20:04&endtime=2026-04-19T03:20:04",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 9
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.23,
+                "place": "13 km WSW of Toms Place, CA",
+                "time": 1776568679160,
+                "updated": 1776570742421,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347462",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347462&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 23,
+                "net": "nc",
+                "code": "75347462",
+                "ids": ",nc75347462,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 13,
+                "dmin": 0.06425,
+                "rms": 0.02,
+                "gap": 142,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.2 - 13 km WSW of Toms Place, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.819000244141,
+                    37.5261650085449,
+                    4.05999994277954
+                ]
+            },
+            "id": "nc75347462"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.75,
+                "place": "2 km NW of The Geysers, CA",
+                "time": 1776568469910,
+                "updated": 1776568564047,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347452",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347452&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 9,
+                "net": "nc",
+                "code": "75347452",
+                "ids": ",nc75347452,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 5,
+                "dmin": 0.008285,
+                "rms": 0.02,
+                "gap": 101,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 0.8 - 2 km NW of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.777336120605,
+                    38.792667388916,
+                    3.02999997138977
+                ]
+            },
+            "id": "nc75347452"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.9,
+                "place": "south of the Kermadec Islands",
+                "time": 1776568349997,
+                "updated": 1776569277040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sr8i",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sr8i&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 369,
+                "net": "us",
+                "code": "6000sr8i",
+                "ids": ",us6000sr8i,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 21,
+                "dmin": 2.785,
+                "rms": 1.34,
+                "gap": 157,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.9 - south of the Kermadec Islands"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -177.8862,
+                    -32.039,
+                    10
+                ]
+            },
+            "id": "us6000sr8i"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.7,
+                "place": "57 km S of Whites City, New Mexico",
+                "time": 1776568130367,
+                "updated": 1776568384810,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hqmrrh",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hqmrrh&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 44,
+                "net": "tx",
+                "code": "2026hqmrrh",
+                "ids": ",tx2026hqmrrh,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 31,
+                "dmin": 0.1,
+                "rms": 0.4,
+                "gap": 70,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.7 - 57 km S of Whites City, New Mexico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.369,
+                    31.655,
+                    3.9273
+                ]
+            },
+            "id": "tx2026hqmrrh"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.57,
+                "place": "5 km NE of Ukiah, CA",
+                "time": 1776567660900,
+                "updated": 1776569542292,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347447",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347447&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 38,
+                "net": "nc",
+                "code": "75347447",
+                "ids": ",nc75347447,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 16,
+                "dmin": 0.08703,
+                "rms": 0.07,
+                "gap": 59,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.6 - 5 km NE of Ukiah, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.165000915527,
+                    39.1833343505859,
+                    6.67000007629395
+                ]
+            },
+            "id": "nc75347447"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.6,
+                "place": "17 km SE of Kasilof, Alaska",
+                "time": 1776567198601,
+                "updated": 1776580325721,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hqmeki",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hqmeki&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 39,
+                "net": "ak",
+                "code": "a2026hqmeki",
+                "ids": ",aka2026hqmeki,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 21,
+                "dmin": 0.5,
+                "rms": 0.4,
+                "gap": 106,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 17 km SE of Kasilof, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -151.077,
+                    60.213,
+                    66.4
+                ]
+            },
+            "id": "aka2026hqmeki"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.04,
+                "place": "2 km NNW of The Geysers, CA",
+                "time": 1776566890880,
+                "updated": 1776566988884,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347437",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347437&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 17,
+                "net": "nc",
+                "code": "75347437",
+                "ids": ",nc75347437,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 18,
+                "dmin": 0.008478,
+                "rms": 0.03,
+                "gap": 65,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.0 - 2 km NNW of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.760665893555,
+                    38.7921676635742,
+                    2.26999998092651
+                ]
+            },
+            "id": "nc75347437"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.81,
+                "place": "21 km ESE of Naalehu, Hawaii",
+                "time": 1776566197030,
+                "updated": 1776566402720,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74938637",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74938637&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 50,
+                "net": "hv",
+                "code": "74938637",
+                "ids": ",hv74938637,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 15,
+                "dmin": 0.1791,
+                "rms": 0.100000001,
+                "gap": 281,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.8 - 21 km ESE of Naalehu, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.397003173828,
+                    18.9863338470459,
+                    39.3199996948242
+                ]
+            },
+            "id": "hv74938637"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.64,
+                "place": "28 km WSW of Mina, Nevada",
+                "time": 1776565205330,
+                "updated": 1776565371209,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915396",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915396&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 41,
+                "net": "nn",
+                "code": "00915396",
+                "ids": ",nn00915396,",
+                "sources": ",nn,",
+                "types": ",origin,phase-data,",
+                "nst": 13,
+                "dmin": 0.093,
+                "rms": 0.2431,
+                "gap": 112,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 28 km WSW of Mina, Nevada"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.3873,
+                    38.2585,
+                    0.0204
+                ]
+            },
+            "id": "nn00915396"
+        }
+    ],
+    "bbox": [
+        -177.8862,
+        -32.039,
+        0.0204,
+        -104.369,
+        60.213,
+        66.4
+    ]
+}

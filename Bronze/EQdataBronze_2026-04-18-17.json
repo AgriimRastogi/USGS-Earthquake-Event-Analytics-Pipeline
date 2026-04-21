@@ -1,0 +1,541 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776595834000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-18T16:20:04&endtime=2026-04-18T17:20:04",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 13
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.7,
+                "place": "114 km N of Yakutat, Alaska",
+                "time": 1776532578339,
+                "updated": 1776577380639,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hptbgy",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hptbgy&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 44,
+                "net": "ak",
+                "code": "a2026hptbgy",
+                "ids": ",aka2026hptbgy,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 13,
+                "dmin": 0.6,
+                "rms": 0.6,
+                "gap": 87,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.7 - 114 km N of Yakutat, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -139.913,
+                    60.569,
+                    10.6
+                ]
+            },
+            "id": "aka2026hptbgy"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.43,
+                "place": "6 km WSW of Larkfield-Wikiup, CA",
+                "time": 1776531299600,
+                "updated": 1776532940149,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347187",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347187&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 91,
+                "net": "nc",
+                "code": "75347187",
+                "ids": ",nc75347187,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 6,
+                "dmin": 0.264,
+                "rms": 0.13,
+                "gap": 224,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 2.4 - 6 km WSW of Larkfield-Wikiup, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.813667297363,
+                    38.4939994812012,
+                    23.2299995422363
+                ]
+            },
+            "id": "nc75347187"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.76,
+                "place": "78 km NE of Tonopah, Nevada",
+                "time": 1776530780830,
+                "updated": 1776530936944,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915344",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915344&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 48,
+                "net": "nn",
+                "code": "00915344",
+                "ids": ",nn00915344,",
+                "sources": ",nn,",
+                "types": ",origin,phase-data,",
+                "nst": 8,
+                "dmin": 1.049,
+                "rms": 0.1873,
+                "gap": 198,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.8 - 78 km NE of Tonopah, Nevada"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.5006,
+                    38.4767,
+                    9.1423
+                ]
+            },
+            "id": "nn00915344"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.7,
+                "place": "107 km N of Yakutat, Alaska",
+                "time": 1776530728058,
+                "updated": 1776577291951,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hpsapy",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hpsapy&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 44,
+                "net": "ak",
+                "code": "a2026hpsapy",
+                "ids": ",aka2026hpsapy,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 10,
+                "dmin": 0.6,
+                "rms": 0.6,
+                "gap": 118,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.7 - 107 km N of Yakutat, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -139.908,
+                    60.506,
+                    6.4
+                ]
+            },
+            "id": "aka2026hpsapy"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.6,
+                "place": "43 km W of Stevens Village, Alaska",
+                "time": 1776530664190,
+                "updated": 1776577235176,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hprzrv",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hprzrv&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 39,
+                "net": "ak",
+                "code": "a2026hprzrv",
+                "ids": ",aka2026hprzrv,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 17,
+                "dmin": 0.6,
+                "rms": 0.7,
+                "gap": 106,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 43 km W of Stevens Village, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -150.04,
+                    66.06,
+                    7.3
+                ]
+            },
+            "id": "aka2026hprzrv"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.54,
+                "place": "18 km ESE of Silver Springs, Nevada",
+                "time": 1776530305449,
+                "updated": 1776556160736,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915337",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915337&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 99,
+                "net": "nn",
+                "code": "00915337",
+                "ids": ",us6000sr54,nn00915337,",
+                "sources": ",us,nn,",
+                "types": ",origin,phase-data,",
+                "nst": 25,
+                "dmin": 0.08,
+                "rms": 0.0846,
+                "gap": 69,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.5 - 18 km ESE of Silver Springs, Nevada"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.0361,
+                    39.3311,
+                    8.679
+                ]
+            },
+            "id": "nn00915337"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.31,
+                "place": "10 km WNW of The Geysers, CA",
+                "time": 1776530126650,
+                "updated": 1776530221247,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347177",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347177&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 1,
+                "net": "nc",
+                "code": "75347177",
+                "ids": ",nc75347177,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 14,
+                "dmin": 0.002414,
+                "rms": 0.02,
+                "gap": 97,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 0.3 - 10 km WNW of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.856330871582,
+                    38.8251647949219,
+                    2.48000001907349
+                ]
+            },
+            "id": "nc75347177"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.3,
+                "place": "48 km NW of Toyah, Texas",
+                "time": 1776530036860,
+                "updated": 1776531874493,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hprpkl",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hprpkl&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 81,
+                "net": "tx",
+                "code": "2026hprpkl",
+                "ids": ",tx2026hprpkl,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 36,
+                "dmin": 0.1,
+                "rms": 0.4,
+                "gap": 95,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.3 - 48 km NW of Toyah, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.198,
+                    31.574,
+                    3.6566
+                ]
+            },
+            "id": "tx2026hprpkl"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.3,
+                "place": "47 km NW of Toyah, Texas",
+                "time": 1776530036837,
+                "updated": 1776530367048,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hprqnn",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hprqnn&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 81,
+                "net": "tx",
+                "code": "2026hprqnn",
+                "ids": ",tx2026hprqnn,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 36,
+                "dmin": 0.1,
+                "rms": 0.4,
+                "gap": 95,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.3 - 47 km NW of Toyah, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.198,
+                    31.573,
+                    3.6868
+                ]
+            },
+            "id": "tx2026hprqnn"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.8,
+                "place": "98 km N of Yakutat, Alaska",
+                "time": 1776529825360,
+                "updated": 1776577157240,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hprnqt",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hprnqt&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 50,
+                "net": "ak",
+                "code": "a2026hprnqt",
+                "ids": ",aka2026hprnqt,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 14,
+                "dmin": 0.8,
+                "rms": 0.9,
+                "gap": 88,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.8 - 98 km N of Yakutat, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -139.545,
+                    60.429,
+                    3.1
+                ]
+            },
+            "id": "aka2026hprnqt"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.22,
+                "place": "7 km WNW of Little Lake, CA",
+                "time": 1776529592280,
+                "updated": 1776570347463,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41444408",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41444408&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 23,
+                "net": "ci",
+                "code": "41444408",
+                "ids": ",ci41444408,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 35,
+                "dmin": 0.09105,
+                "rms": 0.13,
+                "gap": 43,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.2 - 7 km WNW of Little Lake, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.982,
+                    35.955,
+                    2.46
+                ]
+            },
+            "id": "ci41444408"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.77,
+                "place": "2 km S of Lake Henshaw, CA",
+                "time": 1776529333850,
+                "updated": 1776529542604,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41444400",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41444400&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 9,
+                "net": "ci",
+                "code": "41444400",
+                "ids": ",ci41444400,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 25,
+                "dmin": 0.01395,
+                "rms": 0.15,
+                "gap": 36,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.8 - 2 km S of Lake Henshaw, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.759166666667,
+                    33.222,
+                    10.15
+                ]
+            },
+            "id": "ci41444400"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2,
+                "place": "39 km W of Stevens Village, Alaska",
+                "time": 1776529310437,
+                "updated": 1776577072364,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hprghf",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hprghf&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 62,
+                "net": "ak",
+                "code": "a2026hprghf",
+                "ids": ",aka2026hprghf,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 25,
+                "dmin": 0.3,
+                "rms": 0.8,
+                "gap": 99,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.0 - 39 km W of Stevens Village, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -149.966,
+                    66.036,
+                    2.9
+                ]
+            },
+            "id": "aka2026hprghf"
+        }
+    ],
+    "bbox": [
+        -150.04,
+        31.573,
+        2.46,
+        -104.198,
+        66.06,
+        23.229999542236
+    ]
+}

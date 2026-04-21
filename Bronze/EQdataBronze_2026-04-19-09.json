@@ -1,0 +1,381 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776595812000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-19T08:20:04&endtime=2026-04-19T09:20:04",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 9
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.31,
+                "place": "6 km WNW of The Geysers, CA",
+                "time": 1776590279680,
+                "updated": 1776592340745,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347602",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347602&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 26,
+                "net": "nc",
+                "code": "75347602",
+                "ids": ",nc75347602,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 26,
+                "dmin": 0.0126,
+                "rms": 0.03,
+                "gap": 58,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.3 - 6 km WNW of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.811164855957,
+                    38.8056678771973,
+                    2.49000000953674
+                ]
+            },
+            "id": "nc75347602"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.98,
+                "place": "14 km ENE of Ridgecrest, CA",
+                "time": 1776590005090,
+                "updated": 1776590218677,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41444856",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41444856&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 15,
+                "net": "ci",
+                "code": "41444856",
+                "ids": ",ci41444856,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 30,
+                "dmin": 0.08969,
+                "rms": 0.14,
+                "gap": 60,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.0 - 14 km ENE of Ridgecrest, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.533166666667,
+                    35.6751666666667,
+                    7.42
+                ]
+            },
+            "id": "ci41444856"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.8,
+                "place": "35 km SSE of Whittier, Alaska",
+                "time": 1776589842144,
+                "updated": 1776589983632,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hqyrpq",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hqyrpq&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 50,
+                "net": "ak",
+                "code": "a2026hqyrpq",
+                "ids": ",aka2026hqyrpq,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 22,
+                "dmin": 0.6,
+                "rms": 0.8,
+                "gap": 101,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.8 - 35 km SSE of Whittier, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -148.457,
+                    60.48,
+                    2.5
+                ]
+            },
+            "id": "aka2026hqyrpq"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.2,
+                "place": "11 km WSW of Stanton, Texas",
+                "time": 1776589727404,
+                "updated": 1776590090704,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hqypyb",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hqypyb&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 74,
+                "net": "tx",
+                "code": "2026hqypyb",
+                "ids": ",tx2026hqypyb,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 85,
+                "dmin": 0.1,
+                "rms": 0.5,
+                "gap": 37,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.2 - 11 km WSW of Stanton, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.905,
+                    32.107,
+                    3.7057
+                ]
+            },
+            "id": "tx2026hqypyb"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.7,
+                "place": "266 km E of Kuril\u2019sk, Russia",
+                "time": 1776589400194,
+                "updated": 1776591511040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srab",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000srab&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 340,
+                "net": "us",
+                "code": "6000srab",
+                "ids": ",us6000srab,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 65,
+                "dmin": 6.269,
+                "rms": 0.86,
+                "gap": 182,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.7 - 266 km E of Kuril\u2019sk, Russia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.2608,
+                    45.1412,
+                    10
+                ]
+            },
+            "id": "us6000srab"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.6,
+                "place": "17 km ESE of Ninilchik, Alaska",
+                "time": 1776588322424,
+                "updated": 1776588456322,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hqxvui",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hqxvui&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 39,
+                "net": "ak",
+                "code": "a2026hqxvui",
+                "ids": ",aka2026hqxvui,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 27,
+                "dmin": 0.3,
+                "rms": 0.6,
+                "gap": 80,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 17 km ESE of Ninilchik, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -151.379,
+                    59.993,
+                    48.6
+                ]
+            },
+            "id": "aka2026hqxvui"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.3,
+                "place": "24 km W of Tyonek, Alaska",
+                "time": 1776588028581,
+                "updated": 1776588140962,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hqxroj",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hqxroj&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 26,
+                "net": "ak",
+                "code": "a2026hqxroj",
+                "ids": ",aka2026hqxroj,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 22,
+                "dmin": 0.2,
+                "rms": 0.5,
+                "gap": 61,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.3 - 24 km W of Tyonek, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -151.597,
+                    61.071,
+                    80
+                ]
+            },
+            "id": "aka2026hqxroj"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.61,
+                "place": "10 km WNW of The Geysers, CA",
+                "time": 1776587826060,
+                "updated": 1776587923700,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75347597",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75347597&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 6,
+                "net": "nc",
+                "code": "75347597",
+                "ids": ",nc75347597,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 10,
+                "dmin": 0.003206,
+                "rms": 0.02,
+                "gap": 115,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 0.6 - 10 km WNW of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.853164672852,
+                    38.8261680603027,
+                    2.74000000953674
+                ]
+            },
+            "id": "nc75347597"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.61,
+                "place": "5 km N of Banning, CA",
+                "time": 1776587113880,
+                "updated": 1776587322449,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41444840",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41444840&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 6,
+                "net": "ci",
+                "code": "41444840",
+                "ids": ",ci41444840,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 33,
+                "dmin": 0.08911,
+                "rms": 0.13,
+                "gap": 49,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.6 - 5 km N of Banning, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.881166666667,
+                    33.97,
+                    17.79
+                ]
+            },
+            "id": "ci41444840"
+        }
+    ],
+    "bbox": [
+        -151.597,
+        32.107,
+        2.4900000095367,
+        151.2608,
+        61.071,
+        80
+    ]
+}

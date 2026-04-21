@@ -1,1 +1,16 @@
-baseurl=
+directories:
+  bronze: "Bronze/"
+  silver: "Silver/"
+  gold: "Gold/"
+
+database:
+  connection_string: "sqlite:///Gold/earthquake_data.db"
+
+api:
+  primary_url: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson"
+
+pipeline:
+  lookback_hours: 24
+
+logging:
+  file_name: "pipeline.log"

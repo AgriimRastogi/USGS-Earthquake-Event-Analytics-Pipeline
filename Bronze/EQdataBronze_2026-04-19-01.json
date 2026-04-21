@@ -1,0 +1,341 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776595823000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-19T00:20:04&endtime=2026-04-19T01:20:04",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 8
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.04,
+                "place": "3 km SE of Ratliff City, Oklahoma",
+                "time": 1776561603512,
+                "updated": 1776561741187,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026hpkz",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ok2026hpkz&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 64,
+                "net": "ok",
+                "code": "2026hpkz",
+                "ids": ",ok2026hpkz,",
+                "sources": ",ok,",
+                "types": ",origin,phase-data,",
+                "nst": 15,
+                "dmin": 0.06244122237,
+                "rms": 0.4237239672,
+                "gap": 107.2382507,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.0 - 3 km SE of Ratliff City, Oklahoma"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.47873688,
+                    34.42599869,
+                    5.974290848
+                ]
+            },
+            "id": "ok2026hpkz"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1,
+                "place": "11 km WSW of Stanton, Texas",
+                "time": 1776561355077,
+                "updated": 1776561604803,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hqiymj",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hqiymj&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 15,
+                "net": "tx",
+                "code": "2026hqiymj",
+                "ids": ",tx2026hqiymj,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 27,
+                "dmin": 0.1,
+                "rms": 0.6,
+                "gap": 42,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.0 - 11 km WSW of Stanton, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.91,
+                    32.101,
+                    4.3021
+                ]
+            },
+            "id": "tx2026hqiymj"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.1,
+                "place": "14 km SW of Akutan, Alaska",
+                "time": 1776561274743,
+                "updated": 1776580132173,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hqixie",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hqixie&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 68,
+                "net": "ak",
+                "code": "a2026hqixie",
+                "ids": ",aka2026hqixie,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 14,
+                "dmin": 0,
+                "rms": 0.4,
+                "gap": 174,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.1 - 14 km SW of Akutan, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -165.956,
+                    54.057,
+                    13.6
+                ]
+            },
+            "id": "aka2026hqixie"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.52,
+                "place": "5 km SE of Lake Los Angeles, CA",
+                "time": 1776559931720,
+                "updated": 1776570305260,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41444656",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41444656&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 36,
+                "net": "ci",
+                "code": "41444656",
+                "ids": ",ci41444656,",
+                "sources": ",ci,",
+                "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 58,
+                "dmin": 0.05118,
+                "rms": 0.16,
+                "gap": 62,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.5 - 5 km SE of Lake Los Angeles, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.781333333333,
+                    34.5816666666667,
+                    8.54
+                ]
+            },
+            "id": "ci41444656"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.52,
+                "place": "18 km SSE of Silver Springs, Nevada",
+                "time": 1776559554485,
+                "updated": 1776559715835,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915394",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915394&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 36,
+                "net": "nn",
+                "code": "00915394",
+                "ids": ",nn00915394,",
+                "sources": ",nn,",
+                "types": ",origin,phase-data,",
+                "nst": 23,
+                "dmin": 0.055,
+                "rms": 0.239,
+                "gap": 59,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.5 - 18 km SSE of Silver Springs, Nevada"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.1057,
+                    39.2738,
+                    3.7038
+                ]
+            },
+            "id": "nn00915394"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.7,
+                "place": "67 km SE of Denali National Park, Alaska",
+                "time": 1776559332676,
+                "updated": 1776580052618,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hqhvlc",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hqhvlc&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 44,
+                "net": "ak",
+                "code": "a2026hqhvlc",
+                "ids": ",aka2026hqhvlc,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 16,
+                "dmin": 0.7,
+                "rms": 0.5,
+                "gap": 112,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.7 - 67 km SE of Denali National Park, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -150.6,
+                    63.204,
+                    130.3
+                ]
+            },
+            "id": "aka2026hqhvlc"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.78,
+                "place": "15 km SE of P\u0101hala, Hawaii",
+                "time": 1776558489040,
+                "updated": 1776558697000,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74938567",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74938567&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 49,
+                "net": "hv",
+                "code": "74938567",
+                "ids": ",hv74938567,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 8,
+                "dmin": 0.1488,
+                "rms": 0.0500000007,
+                "gap": 282,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.8 - 15 km SE of P\u0101hala, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.394165039062,
+                    19.0879993438721,
+                    45.2900009155273
+                ]
+            },
+            "id": "hv74938567"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.4,
+                "place": "23 km N of Fishhook, Alaska",
+                "time": 1776558074208,
+                "updated": 1776579967950,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hqhdku",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hqhdku&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 30,
+                "net": "ak",
+                "code": "a2026hqhdku",
+                "ids": ",aka2026hqhdku,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 15,
+                "dmin": 0.2,
+                "rms": 0.7,
+                "gap": 111,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.4 - 23 km N of Fishhook, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -149.254,
+                    61.958,
+                    28.2
+                ]
+            },
+            "id": "aka2026hqhdku"
+        }
+    ],
+    "bbox": [
+        -165.956,
+        19.087999343872,
+        3.7038,
+        -97.47873688,
+        63.204,
+        130.3
+    ]
+}
