@@ -5,6 +5,7 @@ import reverse_geocoder
 from datetime import datetime
 import yaml
 import logging
+import sqlalchemy
 
 
 
@@ -12,7 +13,7 @@ with open('config.yaml', 'r') as f:
     config = yaml.safe_load(f)
 
 logging.basicConfig(filename=config['logging']['file_name'], level=logging.INFO, format='%(asctime)s | %(filename)s | %(levelname)s | %(message)s')
-
+eng = sqlalchemy.create_engine(config['database']['connection_string'])
 #get today's file
 if __name__ == '__main__':  #We need this because of geocoder file handling issue in windows
     timestamp = datetime.now().strftime("%Y-%m-%d-%H")
@@ -55,7 +56,9 @@ if __name__ == '__main__':  #We need this because of geocoder file handling issu
             flat_records.append(flat_record)
 
         df = pd.DataFrame(flat_records)
-        df['country'] =[x['cc'] for x in reverse_geocoder.search(latlon,mode='1')] #returns list of dictionaries
+
+        safe_latlon = [(lat if pd.notna(lat) else 0.0, lon if pd.notna(lon) else 0.0) for lat, lon in zip(df['latitude'], df['longitude'])]
+        df['country'] =[x['cc'] for x in reverse_geocoder.search(safe_latlon,mode=1)] #returns list of dictionaries
 
         #convert time to proper format
         df["event_time_utc"] = pd.to_datetime(df["event_time_utc"], unit="ms")
@@ -63,10 +66,13 @@ if __name__ == '__main__':  #We need this because of geocoder file handling issu
 
         #there shuldnt be any dups, but if there are remove them
         df = df.drop_duplicates(subset=["event_id"], keep="last")
-            
+        df = df.dropna(subset=['event_id', 'latitude', 'longitude']) 
+        
         #save flat file     
         silver_path=f"{config['directories']['silver']}EQdataSilver_{timestamp}.parquet"
         df.to_parquet(silver_path, index=False)
+        df.to_sql('Silver_flattened_data',eng,if_exists='append',index=False)
         logging.info('Flat file saved successfully')
+        logging.info('Silver Data Table Appended successfully')
     else:
         logging.error('Bronze file not Found')

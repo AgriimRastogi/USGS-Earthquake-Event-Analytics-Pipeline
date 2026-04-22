@@ -1,0 +1,341 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776837170000,
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+        "title": "USGS All Earthquakes, Past Hour",
+        "status": 200,
+        "api": "2.3.0",
+        "count": 8
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.7,
+                "place": "12 km SSW of Jal, New Mexico",
+                "time": 1776835993611,
+                "updated": 1776836207427,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hweqsx",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026hweqsx.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 44,
+                "net": "tx",
+                "code": "2026hweqsx",
+                "ids": ",tx2026hweqsx,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 9,
+                "dmin": 0.1,
+                "rms": 0.2,
+                "gap": 191,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.7 - 12 km SSW of Jal, New Mexico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -103.231,
+                    32.005,
+                    5.2762
+                ]
+            },
+            "id": "tx2026hweqsx"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.89,
+                "place": "4 km SSW of P\u0101hala, Hawaii",
+                "time": 1776835960260,
+                "updated": 1776836213590,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74941307",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74941307.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 55,
+                "net": "hv",
+                "code": "74941307",
+                "ids": ",hv74941307,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 24,
+                "dmin": 0.0333,
+                "rms": 0.189999998,
+                "gap": 169,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.9 - 4 km SSW of P\u0101hala, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.496505737305,
+                    19.1626663208008,
+                    30.5799999237061
+                ]
+            },
+            "id": "hv74941307"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.8,
+                "place": "13 km SSW of Jal, New Mexico",
+                "time": 1776835600949,
+                "updated": 1776835850627,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hwelfm",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2026hwelfm.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 50,
+                "net": "tx",
+                "code": "2026hwelfm",
+                "ids": ",tx2026hwelfm,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 26,
+                "dmin": 0.2,
+                "rms": 0.5,
+                "gap": 177,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.8 - 13 km SSW of Jal, New Mexico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -103.228,
+                    31.993,
+                    3.3176
+                ]
+            },
+            "id": "tx2026hwelfm"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.37,
+                "place": "9 km SW of Corona, CA",
+                "time": 1776835532020,
+                "updated": 1776835746003,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446624",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41446624.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 29,
+                "net": "ci",
+                "code": "41446624",
+                "ids": ",ci41446624,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 49,
+                "dmin": 0.03126,
+                "rms": 0.19,
+                "gap": 47,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.4 - 9 km SW of Corona, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.640833333333,
+                    33.812,
+                    6.99
+                ]
+            },
+            "id": "ci41446624"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.71,
+                "place": "6 km S of Mentone, CA",
+                "time": 1776835446710,
+                "updated": 1776835655018,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446616",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41446616.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 8,
+                "net": "ci",
+                "code": "41446616",
+                "ids": ",ci41446616,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 24,
+                "dmin": 0.02718,
+                "rms": 0.14,
+                "gap": 78,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.7 - 6 km S of Mentone, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.136833333333,
+                    34.0173333333333,
+                    5.73
+                ]
+            },
+            "id": "ci41446616"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.3,
+                "place": "52 km ENE of Susitna North, Alaska",
+                "time": 1776834698643,
+                "updated": 1776834792408,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hwdygh",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hwdygh.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 26,
+                "net": "ak",
+                "code": "a2026hwdygh",
+                "ids": ",aka2026hwdygh,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 13,
+                "dmin": 0.5,
+                "rms": 0.8,
+                "gap": 81,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.3 - 52 km ENE of Susitna North, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -148.923,
+                    62.338,
+                    28.3
+                ]
+            },
+            "id": "aka2026hwdygh"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.53,
+                "place": "4 km SSW of Clayton, CA",
+                "time": 1776833984700,
+                "updated": 1776835941815,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349382",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75349382.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 36,
+                "net": "nc",
+                "code": "75349382",
+                "ids": ",nc75349382,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 25,
+                "dmin": 0.04014,
+                "rms": 0.06,
+                "gap": 102,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.5 - 4 km SSW of Clayton, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.957336425781,
+                    37.9063339233398,
+                    9.78999996185303
+                ]
+            },
+            "id": "nc75349382"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.2,
+                "place": "39 km W of Tyonek, Alaska",
+                "time": 1776833885685,
+                "updated": 1776834014417,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hwdmnz",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hwdmnz.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 22,
+                "net": "ak",
+                "code": "a2026hwdmnz",
+                "ids": ",aka2026hwdmnz,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 27,
+                "dmin": 0.2,
+                "rms": 0.6,
+                "gap": 67,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.2 - 39 km W of Tyonek, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -151.872,
+                    61.056,
+                    88.9
+                ]
+            },
+            "id": "aka2026hwdmnz"
+        }
+    ],
+    "bbox": [
+        -155.49650573731,
+        19.162666320801,
+        3.3176,
+        -103.228,
+        62.338,
+        88.9
+    ]
+}

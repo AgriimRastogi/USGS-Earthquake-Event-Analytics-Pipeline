@@ -4,6 +4,7 @@ import os
 from datetime import datetime
 import yaml
 import logging
+import pandas as pd
 
 with open('config.yaml', 'r') as f:
     config = yaml.safe_load(f)
@@ -20,6 +21,9 @@ if response.ok:
 
     with open(f"{config['directories']['bronze']}{file_name}", "w") as file:
         json.dump(response.json(), file, indent= 4)
+    
+    bronze_df = pd.DataFrame(
+        {'ingest_timestamp': [timestamp], 
+         'raw_payload': [response.text]},)
 else:
     logging.error('Response failed, status code:', response.status_code)
-    

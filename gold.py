@@ -4,6 +4,7 @@ import pandas as pd
 import sqlalchemy
 import yaml
 import logging
+import pymysql
 
 with open('config.yaml', 'r') as f:
     config = yaml.safe_load(f)
@@ -41,7 +42,8 @@ if len(temp) > 0:
         tsunami_events=('tsunami_flag', 'sum'),
         avg_depth_km = ('depth_km', 'mean')
     ).reset_index()
-    gold_region_activity = The_df.groupby('country').agg(
+    
+    gold_region_activity = The_df.groupby(['event_timestamp', 'country']).agg(
         event_count=('event_id', 'count'),
         avg_magnitude=('magnitude', 'mean'),
         max_magnitude=('magnitude', 'max'),
@@ -51,7 +53,7 @@ if len(temp) > 0:
         avg_depth_km = ('depth_km', 'mean')
     ).reset_index()
     
-    gold_magnitude_distribution = The_df.groupby('band').agg(
+    gold_magnitude_distribution = The_df.groupby(['event_timestamp','band']).agg(
         event_count=('event_id', 'count'),
     ).reset_index()                                                                                                                                                                                                                                         
 

@@ -3,3 +3,72 @@
 2026-04-22 10:41:05,462 | gold.py | INFO | generated gold_daily_event_summary
 2026-04-22 10:41:05,468 | gold.py | INFO | generated gold_region_activity
 2026-04-22 10:41:05,473 | gold.py | INFO | generated gold_magnitude_distribution
+2026-04-22 11:23:11,726 | req.py | INFO | Response succesful
+2026-04-22 11:23:31,125 | silver.py | INFO | bronze file found
+2026-04-22 11:23:31,135 | silver.py | INFO | flattening the Earthquake events in a parquet file....
+2026-04-22 11:23:34,071 | silver.py | INFO | Flat file saved successfully
+2026-04-22 11:23:43,473 | gold.py | INFO | Appending last 24 hour Data into a single dataframe...
+2026-04-22 11:23:43,906 | gold.py | INFO | Successfully got the data, now Generating SQL Tables
+2026-04-22 11:23:43,982 | gold.py | INFO | generated gold_daily_event_summary
+2026-04-22 11:23:43,993 | gold.py | INFO | generated gold_region_activity
+2026-04-22 11:23:44,002 | gold.py | INFO | generated gold_magnitude_distribution
+2026-04-22 12:11:58,478 | gold.py | INFO | Appending last 24 hour Data into a single dataframe...
+2026-04-22 12:11:58,628 | gold.py | INFO | Successfully got the data, now Generating SQL Tables
+2026-04-22 12:12:23,255 | gold.py | INFO | Appending last 24 hour Data into a single dataframe...
+2026-04-22 12:12:23,431 | gold.py | INFO | Successfully got the data, now Generating SQL Tables
+2026-04-22 12:26:23,381 | gold.py | INFO | Appending last 24 hour Data into a single dataframe...
+2026-04-22 12:26:23,523 | gold.py | INFO | Successfully got the data, now Generating SQL Tables
+2026-04-22 12:26:23,636 | gold.py | INFO | generated gold_daily_event_summary
+2026-04-22 12:26:23,659 | gold.py | INFO | generated gold_region_activity
+2026-04-22 12:26:23,675 | gold.py | INFO | generated gold_magnitude_distribution
+2026-04-22 13:28:14,766 | gold.py | INFO | Appending last 24 hour Data into a single dataframe...
+2026-04-22 13:28:15,614 | gold.py | INFO | Successfully got the data, now Generating SQL Tables
+2026-04-22 13:28:49,792 | gold.py | INFO | Appending last 24 hour Data into a single dataframe...
+2026-04-22 13:28:49,865 | gold.py | INFO | Successfully got the data, now Generating SQL Tables
+2026-04-22 13:29:05,853 | gold.py | INFO | Appending last 24 hour Data into a single dataframe...
+2026-04-22 13:29:05,919 | gold.py | INFO | Successfully got the data, now Generating SQL Tables
+2026-04-22 13:32:09,868 | gold.py | INFO | Appending last 24 hour Data into a single dataframe...
+2026-04-22 13:32:09,938 | gold.py | INFO | Successfully got the data, now Generating SQL Tables
+2026-04-22 13:32:10,005 | gold.py | INFO | generated gold_daily_event_summary
+2026-04-22 13:32:10,022 | gold.py | INFO | generated gold_region_activity
+2026-04-22 13:32:10,039 | gold.py | INFO | generated gold_magnitude_distribution
+2026-04-22 13:32:48,038 | gold.py | INFO | Appending last 24 hour Data into a single dataframe...
+2026-04-22 13:32:48,109 | gold.py | INFO | Successfully got the data, now Generating SQL Tables
+2026-04-22 13:32:48,171 | gold.py | INFO | generated gold_daily_event_summary
+2026-04-22 13:32:48,208 | gold.py | INFO | generated gold_region_activity
+2026-04-22 13:32:48,242 | gold.py | INFO | generated gold_magnitude_distribution
+2026-04-22 13:56:02,803 | pipeline.py | INFO | Pipeline Orchestrator Started. Waiting for triggers...
+2026-04-22 13:56:02,803 | pipeline.py | INFO | Running req.py
+2026-04-22 13:56:24,556 | pipeline.py | INFO | Pipeline Orchestrator Started. Waiting for triggers...
+2026-04-22 13:56:24,556 | pipeline.py | INFO | Running req.py
+2026-04-22 13:56:44,733 | pipeline.py | INFO | Pipeline Orchestrator Started. Waiting for triggers...
+2026-04-22 13:56:44,733 | pipeline.py | INFO | Running req.py
+2026-04-22 13:57:28,579 | pipeline.py | INFO | Pipeline Orchestrator Started. Waiting for triggers...
+2026-04-22 13:57:28,579 | pipeline.py | INFO | Running req.py
+2026-04-22 13:57:30,818 | req.py | INFO | Response succesful
+2026-04-22 13:57:30,841 | pipeline.py | INFO | === Successfully finished req.py ===
+2026-04-22 13:57:30,842 | pipeline.py | INFO | Running silver.py
+2026-04-22 13:57:40,321 | silver.py | INFO | bronze file found
+2026-04-22 13:57:40,341 | silver.py | INFO | flattening the Earthquake events in a parquet file....
+2026-04-22 13:57:40,963 | silver.py | INFO | Flat file saved successfully
+2026-04-22 13:57:41,089 | pipeline.py | INFO | === Successfully finished silver.py ===
+2026-04-22 13:57:41,090 | pipeline.py | INFO | Running gold.py
+2026-04-22 13:57:42,712 | gold.py | INFO | Appending last 24 hour Data into a single dataframe...
+2026-04-22 13:57:43,373 | gold.py | INFO | Successfully got the data, now Generating SQL Tables
+2026-04-22 13:57:43,403 | gold.py | INFO | generated gold_daily_event_summary
+2026-04-22 13:57:43,412 | gold.py | INFO | generated gold_region_activity
+2026-04-22 13:57:43,421 | gold.py | INFO | generated gold_magnitude_distribution
+2026-04-22 13:57:43,529 | pipeline.py | INFO | === Successfully finished gold.py ===
+2026-04-22 14:05:13,077 | pipeline.py | INFO | Running req.py
+2026-04-22 14:05:14,993 | req.py | INFO | Response succesful
+2026-04-22 14:05:15,021 | pipeline.py | INFO | === Successfully finished req.py ===
+2026-04-22 14:05:15,021 | pipeline.py | INFO | Running silver.py
+2026-04-22 14:05:16,199 | silver.py | INFO | bronze file found
+2026-04-22 14:05:16,207 | silver.py | INFO | flattening the Earthquake events in a parquet file....
+2026-04-22 14:05:16,621 | silver.py | INFO | Flat file saved successfully
+2026-04-22 14:05:16,782 | pipeline.py | INFO | === Successfully finished silver.py ===
+2026-04-22 14:17:57,198 | gold.py | INFO | Appending last 24 hour Data into a single dataframe...
+2026-04-22 14:17:57,581 | gold.py | INFO | Successfully got the data, now Generating SQL Tables
+2026-04-22 14:17:57,799 | gold.py | INFO | generated gold_daily_event_summary
+2026-04-22 14:17:57,846 | gold.py | INFO | generated gold_region_activity
+2026-04-22 14:17:57,896 | gold.py | INFO | generated gold_magnitude_distribution

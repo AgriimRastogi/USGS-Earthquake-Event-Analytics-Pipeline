@@ -4,7 +4,7 @@ directories:
   gold: "Gold/"
 
 database:
-  connection_string: "sqlite:///Gold/earthquake_data.db"
+  connection_string: "mysql+pymysql://root:grill@localhost:3306/earthquake_project"
 
 api:
   primary_url: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson"

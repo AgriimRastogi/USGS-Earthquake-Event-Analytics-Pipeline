@@ -1,0 +1,181 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776846410000,
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+        "title": "USGS All Earthquakes, Past Hour",
+        "status": 200,
+        "api": "2.3.0",
+        "count": 4
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.4,
+                "place": "18 km S of Susitna, Alaska",
+                "time": 1776845547537,
+                "updated": 1776845666552,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hwjybl",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hwjybl.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 30,
+                "net": "ak",
+                "code": "a2026hwjybl",
+                "ids": ",aka2026hwjybl,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 27,
+                "dmin": 0.5,
+                "rms": 0.7,
+                "gap": 90,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.4 - 18 km S of Susitna, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -150.466,
+                    61.383,
+                    48.7
+                ]
+            },
+            "id": "aka2026hwjybl"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.7,
+                "place": "81 km N of Aleneva, Alaska",
+                "time": 1776844232813,
+                "updated": 1776844354602,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hwjctf",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hwjctf.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 44,
+                "net": "ak",
+                "code": "a2026hwjctf",
+                "ids": ",aka2026hwjctf,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 44,
+                "dmin": 0.3,
+                "rms": 0.5,
+                "gap": 68,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.7 - 81 km N of Aleneva, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -152.801,
+                    58.785,
+                    68.4
+                ]
+            },
+            "id": "aka2026hwjctf"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.9,
+                "place": "109 km SE of Severo-Kuril\u2019sk, Russia",
+                "time": 1776843649877,
+                "updated": 1776845418040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srzq",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000srzq.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 369,
+                "net": "us",
+                "code": "6000srzq",
+                "ids": ",us6000srzq,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 74,
+                "dmin": 11.542,
+                "rms": 0.54,
+                "gap": 143,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.9 - 109 km SE of Severo-Kuril\u2019sk, Russia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    157.1919,
+                    49.9647,
+                    35
+                ]
+            },
+            "id": "us6000srzq"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.8,
+                "place": "36 km E of Denali National Park, Alaska",
+                "time": 1776843608091,
+                "updated": 1776843704201,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hwiwfh",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hwiwfh.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 121,
+                "net": "ak",
+                "code": "a2026hwiwfh",
+                "ids": ",aka2026hwiwfh,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 44,
+                "dmin": 0.5,
+                "rms": 0.8,
+                "gap": 32,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.8 - 36 km E of Denali National Park, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -150.996,
+                    63.538,
+                    0.2
+                ]
+            },
+            "id": "aka2026hwiwfh"
+        }
+    ],
+    "bbox": [
+        -152.801,
+        49.9647,
+        0.2,
+        157.1919,
+        63.538,
+        68.4
+    ]
+}
