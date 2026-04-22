@@ -1,0 +1,5 @@
+2026-04-22 10:41:04,622 | gold.py | INFO | Appending last 24 hour Data into a single dataframe...
+2026-04-22 10:41:05,275 | gold.py | INFO | Successfully got the data, now Generating SQL Tables
+2026-04-22 10:41:05,462 | gold.py | INFO | generated gold_daily_event_summary
+2026-04-22 10:41:05,468 | gold.py | INFO | generated gold_region_activity
+2026-04-22 10:41:05,473 | gold.py | INFO | generated gold_magnitude_distribution

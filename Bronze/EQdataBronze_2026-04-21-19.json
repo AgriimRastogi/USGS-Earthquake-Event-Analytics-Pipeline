@@ -1,0 +1,421 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776834600000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-21T18:39:42&endtime=2026-04-21T19:39:42",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 10
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.6,
+                "place": "50 km W of Mentone, Texas",
+                "time": 1776799705413,
+                "updated": 1776801634203,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hvkpre",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hvkpre&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 39,
+                "net": "tx",
+                "code": "2026hvkpre",
+                "ids": ",tx2026hvkpre,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 37,
+                "dmin": 0.1,
+                "rms": 0.2,
+                "gap": 40,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 50 km W of Mentone, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.128,
+                    31.7,
+                    6.3434
+                ]
+            },
+            "id": "tx2026hvkpre"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.52,
+                "place": "3 km SSE of Redwood Valley, CA",
+                "time": 1776799041370,
+                "updated": 1776801142013,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349207",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349207&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 36,
+                "net": "nc",
+                "code": "75349207",
+                "ids": ",nc75349207,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 13,
+                "dmin": 0.06522,
+                "rms": 0.05,
+                "gap": 72,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.5 - 3 km SSE of Redwood Valley, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.194831848145,
+                    39.2394981384277,
+                    5.78999996185303
+                ]
+            },
+            "id": "nc75349207"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.62,
+                "place": "8 km E of Sparks, Nevada",
+                "time": 1776798728761,
+                "updated": 1776798840335,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915969",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915969&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 40,
+                "net": "nn",
+                "code": "00915969",
+                "ids": ",nn00915969,",
+                "sources": ",nn,",
+                "types": ",origin,phase-data,",
+                "nst": 9,
+                "dmin": 0.13,
+                "rms": 0.3361,
+                "gap": 129,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 8 km E of Sparks, Nevada"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.6537,
+                    39.5358,
+                    0.02
+                ]
+            },
+            "id": "nn00915969"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.7,
+                "place": "38 km WNW of Anchor Point, Alaska",
+                "time": 1776798698146,
+                "updated": 1776798802703,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hvkbfi",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hvkbfi&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 44,
+                "net": "ak",
+                "code": "a2026hvkbfi",
+                "ids": ",aka2026hvkbfi,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 46,
+                "dmin": 0.3,
+                "rms": 0.4,
+                "gap": 81,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.7 - 38 km WNW of Anchor Point, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -152.496,
+                    59.857,
+                    78.4
+                ]
+            },
+            "id": "aka2026hvkbfi"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.61,
+                "place": "3 km W of Cobb, CA",
+                "time": 1776798630530,
+                "updated": 1776798724507,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349202",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349202&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 6,
+                "net": "nc",
+                "code": "75349202",
+                "ids": ",nc75349202,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 9,
+                "dmin": 0.007922,
+                "rms": 0.01,
+                "gap": 129,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 0.6 - 3 km W of Cobb, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.763000488281,
+                    38.8246650695801,
+                    1.70000004768372
+                ]
+            },
+            "id": "nc75349202"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.77,
+                "place": "4 km SSW of Anacortes, Washington",
+                "time": 1776798187480,
+                "updated": 1776830447810,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62245161",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62245161&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 48,
+                "net": "uw",
+                "code": "62245161",
+                "ids": ",uw62245161,",
+                "sources": ",uw,",
+                "types": ",origin,phase-data,",
+                "nst": 17,
+                "dmin": 0.02007,
+                "rms": 0.11,
+                "gap": 102,
+                "magType": "ml",
+                "type": "explosion",
+                "title": "M 1.8 Explosion - 4 km SSW of Anacortes, Washington"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.63833333333334,
+                    48.472166666666666,
+                    -0.08
+                ]
+            },
+            "id": "uw62245161"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.94,
+                "place": "2 km ESE of Home Gardens, CA",
+                "time": 1776798104280,
+                "updated": 1776804930782,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446416",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41446416&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 14,
+                "net": "ci",
+                "code": "41446416",
+                "ids": ",ci41446416,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 24,
+                "dmin": 0.04711,
+                "rms": 0.2,
+                "gap": 47,
+                "magType": "ml",
+                "type": "quarry blast",
+                "title": "M 0.9 Quarry Blast - 2 km ESE of Home Gardens, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.504666666667,
+                    33.8715,
+                    -0.48
+                ]
+            },
+            "id": "ci41446416"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 5.6,
+                "place": "140 km E of Noda, Japan",
+                "time": 1776797052001,
+                "updated": 1776805974697,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srvu",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000srvu&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": 3.289,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 482,
+                "net": "us",
+                "code": "6000srvu",
+                "ids": ",usauto6000srvu,us6000srvu,",
+                "sources": ",usauto,us,",
+                "types": ",internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 103,
+                "dmin": 1.871,
+                "rms": 1.78,
+                "gap": 102,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 5.6 - 140 km E of Noda, Japan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.4599,
+                    40.1562,
+                    35
+                ]
+            },
+            "id": "us6000srvu"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.4,
+                "place": "112 km E of Noda, Japan",
+                "time": 1776796982208,
+                "updated": 1776799739040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srvw",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000srvw&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 298,
+                "net": "us",
+                "code": "6000srvw",
+                "ids": ",us6000srvw,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 62,
+                "dmin": 1.668,
+                "rms": 0.66,
+                "gap": 134,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.4 - 112 km E of Noda, Japan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    143.1277,
+                    40.2344,
+                    40.126
+                ]
+            },
+            "id": "us6000srvw"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.58,
+                "place": "15 km SE of Silver Springs, Nevada",
+                "time": 1776796833861,
+                "updated": 1776796966608,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915965",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915965&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 38,
+                "net": "nn",
+                "code": "00915965",
+                "ids": ",nn00915965,",
+                "sources": ",nn,",
+                "types": ",origin,phase-data,",
+                "nst": 12,
+                "dmin": 0.081,
+                "rms": 0.1503,
+                "gap": 90,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 15 km SE of Silver Springs, Nevada"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.1148,
+                    39.3088,
+                    1.6542
+                ]
+            },
+            "id": "nn00915965"
+        }
+    ],
+    "bbox": [
+        -152.496,
+        31.7,
+        -0.48,
+        143.4599,
+        59.857,
+        78.4
+    ]
+}

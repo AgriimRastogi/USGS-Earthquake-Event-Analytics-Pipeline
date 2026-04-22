@@ -1,0 +1,581 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776834605000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-21T13:39:42&endtime=2026-04-21T14:39:42",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 14
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.85,
+                "place": "18 km NNE of P\u0101hala, Hawaii",
+                "time": 1776782338270,
+                "updated": 1776798377400,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74940707",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74940707&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 53,
+                "net": "hv",
+                "code": "74940707",
+                "ids": ",hv74940707,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 40,
+                "dmin": 0.02017,
+                "rms": 0.14,
+                "gap": 44,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.9 - 18 km NNE of P\u0101hala, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.436166666667,
+                    19.3686666666667,
+                    8
+                ]
+            },
+            "id": "hv74940707"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.11,
+                "place": "7 km NE of Lake Davis, CA",
+                "time": 1776782219800,
+                "updated": 1776792711633,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349097",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349097&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 68,
+                "net": "nc",
+                "code": "75349097",
+                "ids": ",nc75349097,nn00915944,",
+                "sources": ",nc,nn,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 21,
+                "dmin": null,
+                "rms": 0.19,
+                "gap": 115,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 2.1 - 7 km NE of Lake Davis, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.412330627441,
+                    39.9148330688477,
+                    -0.439999997615814
+                ]
+            },
+            "id": "nc75349097"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.82,
+                "place": "17 km SE of Silver Springs, Nevada",
+                "time": 1776781999799,
+                "updated": 1776782128668,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915942",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915942&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 51,
+                "net": "nn",
+                "code": "00915942",
+                "ids": ",nn00915942,",
+                "sources": ",nn,",
+                "types": ",origin,phase-data,",
+                "nst": 18,
+                "dmin": 0.062,
+                "rms": 0.1349,
+                "gap": 62,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.8 - 17 km SE of Silver Springs, Nevada"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.1073,
+                    39.286,
+                    3.9884
+                ]
+            },
+            "id": "nn00915942"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.57,
+                "place": "18 km SE of Silver Springs, Nevada",
+                "time": 1776781602511,
+                "updated": 1776792823040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915938",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915938&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 102,
+                "net": "nn",
+                "code": "00915938",
+                "ids": ",us6000sru1,nn00915938,",
+                "sources": ",us,nn,",
+                "types": ",origin,phase-data,",
+                "nst": 23,
+                "dmin": 0.057,
+                "rms": 0.1294,
+                "gap": 61,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 18 km SE of Silver Springs, Nevada"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.1029,
+                    39.2825,
+                    6.3503
+                ]
+            },
+            "id": "nn00915938"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.5,
+                "place": "31 km NW of Mawlaik, Burma (Myanmar)",
+                "time": 1776781477872,
+                "updated": 1776791254040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sru6",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000sru6&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 312,
+                "net": "us",
+                "code": "6000sru6",
+                "ids": ",us6000sru6,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 73,
+                "dmin": 2.717,
+                "rms": 0.79,
+                "gap": 52,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.5 - 31 km NW of Mawlaik, Burma (Myanmar)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.1865,
+                    23.85,
+                    78.051
+                ]
+            },
+            "id": "us6000sru6"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": -0.24,
+                "place": "6 km W of Dutch Harbor, Alaska",
+                "time": 1776781449540,
+                "updated": 1776812264980,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93058259",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=av93058259&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 0,
+                "net": "av",
+                "code": "93058259",
+                "ids": ",av93058259,",
+                "sources": ",av,",
+                "types": ",origin,phase-data,",
+                "nst": 6,
+                "dmin": 0.02635,
+                "rms": 0.22,
+                "gap": 135,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M -0.2 - 6 km W of Dutch Harbor, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -166.644166666667,
+                    53.8925,
+                    8.03
+                ]
+            },
+            "id": "av93058259"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.7,
+                "place": "17 km SSE of Ackerly, Texas",
+                "time": 1776781298785,
+                "updated": 1776782408135,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hvaile",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hvaile&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 8,
+                "net": "tx",
+                "code": "2026hvaile",
+                "ids": ",tx2026hvaile,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 9,
+                "dmin": 0,
+                "rms": 0.1,
+                "gap": 102,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.7 - 17 km SSE of Ackerly, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.646,
+                    32.381,
+                    7.3975
+                ]
+            },
+            "id": "tx2026hvaile"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.89,
+                "place": "7 km NW of The Geysers, CA",
+                "time": 1776780784990,
+                "updated": 1776780880173,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349087",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349087&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 12,
+                "net": "nc",
+                "code": "75349087",
+                "ids": ",nc75349087,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 12,
+                "dmin": 0.00489,
+                "rms": 0.02,
+                "gap": 119,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 0.9 - 7 km NW of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.812835693359,
+                    38.8190002441406,
+                    2.3199999332428
+                ]
+            },
+            "id": "nc75349087"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.97,
+                "place": "8 km N of P\u0101hala, Hawaii",
+                "time": 1776780474880,
+                "updated": 1776780685060,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74940677",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74940677&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 60,
+                "net": "hv",
+                "code": "74940677",
+                "ids": ",hv74940677,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 37,
+                "dmin": 0.04103,
+                "rms": 0.150000006,
+                "gap": 95,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 2.0 - 8 km N of P\u0101hala, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.465667724609,
+                    19.2748336791992,
+                    26.6499996185303
+                ]
+            },
+            "id": "hv74940677"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": -0.02,
+                "place": "6 km W of Dutch Harbor, Alaska",
+                "time": 1776780382440,
+                "updated": 1776811784540,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93058244",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=av93058244&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 0,
+                "net": "av",
+                "code": "93058244",
+                "ids": ",av93058244,",
+                "sources": ",av,",
+                "types": ",origin,phase-data,",
+                "nst": 5,
+                "dmin": 0.0332,
+                "rms": 0.12,
+                "gap": 144,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.0 - 6 km W of Dutch Harbor, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -166.634333333333,
+                    53.8963333333333,
+                    8.01
+                ]
+            },
+            "id": "av93058244"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.01,
+                "place": "5 km W of The Geysers, CA",
+                "time": 1776780358280,
+                "updated": 1776780455019,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349077",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349077&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 16,
+                "net": "nc",
+                "code": "75349077",
+                "ids": ",nc75349077,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 9,
+                "dmin": 0.03106,
+                "rms": 0.08,
+                "gap": 225,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.0 - 5 km W of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.815498352051,
+                    38.7796669006348,
+                    15.4899997711182
+                ]
+            },
+            "id": "nc75349077"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.85,
+                "place": "24 km WNW of Weaverville, CA",
+                "time": 1776780322320,
+                "updated": 1776781640778,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349072",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349072&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 125,
+                "net": "nc",
+                "code": "75349072",
+                "ids": ",nc75349072,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 22,
+                "dmin": 0.1419,
+                "rms": 0.1,
+                "gap": 37,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 2.9 - 24 km WNW of Weaverville, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.205497741699,
+                    40.8014984130859,
+                    31.8500003814697
+                ]
+            },
+            "id": "nc75349072"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2,
+                "place": "77 km E of Chignik, Alaska",
+                "time": 1776779618232,
+                "updated": 1776779766341,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026huznee",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026huznee&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 62,
+                "net": "ak",
+                "code": "a2026huznee",
+                "ids": ",aka2026huznee,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 20,
+                "dmin": 0.7,
+                "rms": 0.5,
+                "gap": 222,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.0 - 77 km E of Chignik, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -157.164,
+                    56.371,
+                    25.9
+                ]
+            },
+            "id": "aka2026huznee"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.85,
+                "place": "3 km W of P\u0101hala, Hawaii",
+                "time": 1776779407220,
+                "updated": 1776779633690,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74940657",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74940657&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 53,
+                "net": "hv",
+                "code": "74940657",
+                "ids": ",hv74940657,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 42,
+                "dmin": 0.04934,
+                "rms": 0.129999995,
+                "gap": 81,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.9 - 3 km W of P\u0101hala, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.509674072266,
+                    19.1998329162598,
+                    35.4300003051758
+                ]
+            },
+            "id": "hv74940657"
+        }
+    ],
+    "bbox": [
+        -166.64416666667,
+        19.19983291626,
+        -0.43999999761581,
+        94.1865,
+        56.371,
+        78.051
+    ]
+}

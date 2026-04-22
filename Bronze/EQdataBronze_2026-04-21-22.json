@@ -1,0 +1,541 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776834596000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-21T21:39:42&endtime=2026-04-21T22:39:42",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 13
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": -0.22,
+                "place": "38 km NNE of Amboy, Washington",
+                "time": 1776811173190,
+                "updated": 1776833772620,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62245271",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62245271&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 0,
+                "net": "uw",
+                "code": "62245271",
+                "ids": ",uw62245271,",
+                "sources": ",uw,",
+                "types": ",origin,phase-data,",
+                "nst": 6,
+                "dmin": 0.0008346,
+                "rms": 0.28,
+                "gap": 155,
+                "magType": "mh",
+                "type": "earthquake",
+                "title": "M -0.2 - 38 km NNE of Amboy, Washington"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.18433333333333,
+                    46.2,
+                    -1.83
+                ]
+            },
+            "id": "uw62245271"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.4,
+                "place": "45 km NW of Toyah, Texas",
+                "time": 1776811171765,
+                "updated": 1776834440902,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hvqygg",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hvqygg&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 2,
+                "net": "tx",
+                "code": "2026hvqygg",
+                "ids": ",tx2026hvqygg,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 7,
+                "dmin": 0,
+                "rms": 0.4,
+                "gap": 120,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.4 - 45 km NW of Toyah, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.11,
+                    31.624,
+                    3.6328
+                ]
+            },
+            "id": "tx2026hvqygg"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.8,
+                "place": "15 km N of Moose Pass, Alaska",
+                "time": 1776810496182,
+                "updated": 1776829986737,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hvqoqz",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hvqoqz&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 50,
+                "net": "ak",
+                "code": "a2026hvqoqz",
+                "ids": ",aka2026hvqoqz,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 17,
+                "dmin": 0.5,
+                "rms": 0.7,
+                "gap": 100,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.8 - 15 km N of Moose Pass, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -149.372,
+                    60.627,
+                    12.4
+                ]
+            },
+            "id": "aka2026hvqoqz"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.63,
+                "place": "2 km SSW of P\u0101hala, Hawaii",
+                "time": 1776810226300,
+                "updated": 1776818169150,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74941062",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74941062&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 41,
+                "net": "hv",
+                "code": "74941062",
+                "ids": ",hv74941062,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 36,
+                "dmin": 0.03287,
+                "rms": 0.11,
+                "gap": 87,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 2 km SSW of P\u0101hala, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.487166666667,
+                    19.1783333333333,
+                    30.33
+                ]
+            },
+            "id": "hv74941062"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.97,
+                "place": "14 km NNE of Scipio, Utah",
+                "time": 1776810125910,
+                "updated": 1776811190530,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80137481",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80137481&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 14,
+                "net": "uu",
+                "code": "80137481",
+                "ids": ",uu80137481,",
+                "sources": ",uu,",
+                "types": ",origin,phase-data,",
+                "nst": 6,
+                "dmin": 0.1157,
+                "rms": 0.11,
+                "gap": 110,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.0 - 14 km NNE of Scipio, Utah"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.0245,
+                    39.3578333333333,
+                    0.28
+                ]
+            },
+            "id": "uu80137481"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.1,
+                "place": "73 km NNE of Chickaloon, Alaska",
+                "time": 1776809783742,
+                "updated": 1776809870213,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hvqekk",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hvqekk&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 19,
+                "net": "ak",
+                "code": "a2026hvqekk",
+                "ids": ",aka2026hvqekk,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 15,
+                "dmin": 0.2,
+                "rms": 0.7,
+                "gap": 77,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.1 - 73 km NNE of Chickaloon, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -148.151,
+                    62.443,
+                    46.1
+                ]
+            },
+            "id": "aka2026hvqekk"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.91,
+                "place": "6 km SW of Volcano, Hawaii",
+                "time": 1776809438090,
+                "updated": 1776813364230,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74941057",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74941057&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 56,
+                "net": "hv",
+                "code": "74941057",
+                "ids": ",hv74941057,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 14,
+                "dmin": 0.005477,
+                "rms": 0.08,
+                "gap": 74,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.9 - 6 km SW of Volcano, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.270833333333,
+                    19.4013333333333,
+                    0.17
+                ]
+            },
+            "id": "hv74941057"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.4,
+                "place": "93 km W of Puerto, Chile",
+                "time": 1776808830129,
+                "updated": 1776817854040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srxi",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000srxi&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 298,
+                "net": "us",
+                "code": "6000srxi",
+                "ids": ",us6000srxi,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 23,
+                "dmin": 0.858,
+                "rms": 0.74,
+                "gap": 150,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.4 - 93 km W of Puerto, Chile"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.0453,
+                    -20.2857,
+                    10
+                ]
+            },
+            "id": "us6000srxi"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.6,
+                "place": "22 km SE of Chickaloon, Alaska",
+                "time": 1776808749650,
+                "updated": 1776810158372,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hvppor",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hvppor&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 39,
+                "net": "ak",
+                "code": "a2026hvppor",
+                "ids": ",aka2026hvppor,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 22,
+                "dmin": 0.2,
+                "rms": 1,
+                "gap": 47,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 22 km SE of Chickaloon, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -148.129,
+                    61.676,
+                    3.5
+                ]
+            },
+            "id": "aka2026hvppor"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.3,
+                "place": "9 km E of Lincoln Beach, Oregon",
+                "time": 1776808696840,
+                "updated": 1776831999370,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62245246",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62245246&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 26,
+                "net": "uw",
+                "code": "62245246",
+                "ids": ",uw62245246,",
+                "sources": ",uw,",
+                "types": ",origin,phase-data,",
+                "nst": 4,
+                "dmin": 0.1918,
+                "rms": 0.13,
+                "gap": 225,
+                "magType": "md",
+                "type": "explosion",
+                "title": "M 1.3 Explosion - 9 km E of Lincoln Beach, Oregon"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.92716666666666,
+                    44.839166666666664,
+                    -0.55
+                ]
+            },
+            "id": "uw62245246"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.07,
+                "place": "3 km SW of Anderson Springs, CA",
+                "time": 1776808379750,
+                "updated": 1776808476652,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349247",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349247&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 18,
+                "net": "nc",
+                "code": "75349247",
+                "ids": ",nc75349247,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 8,
+                "dmin": 0.01275,
+                "rms": 0.04,
+                "gap": 76,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.1 - 3 km SW of Anderson Springs, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.709999084473,
+                    38.7563323974609,
+                    1.05999994277954
+                ]
+            },
+            "id": "nc75349247"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.37,
+                "place": "6 km NW of The Geysers, CA",
+                "time": 1776808072140,
+                "updated": 1776811341152,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349242",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349242&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 86,
+                "net": "nc",
+                "code": "75349242",
+                "ids": ",nc75349242,",
+                "sources": ",nc,",
+                "types": ",focal-mechanism,nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 63,
+                "dmin": 0.0139,
+                "rms": 0.21,
+                "gap": 30,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 2.4 - 6 km NW of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.799499511719,
+                    38.8214988708496,
+                    2.09999990463257
+                ]
+            },
+            "id": "nc75349242"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.84,
+                "place": "10 km ESE of Redway, CA",
+                "time": 1776807980000,
+                "updated": 1776808076669,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349237",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349237&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 52,
+                "net": "nc",
+                "code": "75349237",
+                "ids": ",nc75349237,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 22,
+                "dmin": 0.07079,
+                "rms": 0.1,
+                "gap": 53,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.8 - 10 km ESE of Redway, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.719833374023,
+                    40.0709991455078,
+                    22.0900001525879
+                ]
+            },
+            "id": "nc75349237"
+        }
+    ],
+    "bbox": [
+        -155.48716666667,
+        -20.2857,
+        -1.83,
+        -71.0453,
+        62.443,
+        46.1
+    ]
+}

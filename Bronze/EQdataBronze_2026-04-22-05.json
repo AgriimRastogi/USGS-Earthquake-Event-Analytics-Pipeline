@@ -1,0 +1,181 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776834588000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-22T04:39:42&endtime=2026-04-22T05:39:42",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 4
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.53,
+                "place": "4 km SSW of Clayton, CA",
+                "time": 1776833984700,
+                "updated": 1776834082006,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349382",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349382&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 36,
+                "net": "nc",
+                "code": "75349382",
+                "ids": ",nc75349382,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 25,
+                "dmin": 0.04014,
+                "rms": 0.06,
+                "gap": 102,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.5 - 4 km SSW of Clayton, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.957336425781,
+                    37.9063339233398,
+                    9.78999996185303
+                ]
+            },
+            "id": "nc75349382"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.2,
+                "place": "39 km W of Tyonek, Alaska",
+                "time": 1776833885685,
+                "updated": 1776834014417,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hwdmnz",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hwdmnz&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 22,
+                "net": "ak",
+                "code": "a2026hwdmnz",
+                "ids": ",aka2026hwdmnz,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 27,
+                "dmin": 0.2,
+                "rms": 0.6,
+                "gap": 67,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.2 - 39 km W of Tyonek, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -151.872,
+                    61.056,
+                    88.9
+                ]
+            },
+            "id": "aka2026hwdmnz"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.35,
+                "place": "3 km WSW of Indios, Puerto Rico",
+                "time": 1776833170340,
+                "updated": 1776834193030,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514378",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71514378&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 85,
+                "net": "pr",
+                "code": "71514378",
+                "ids": ",pr71514378,",
+                "sources": ",pr,",
+                "types": ",origin,phase-data,",
+                "nst": 7,
+                "dmin": 0.03199,
+                "rms": 0.15,
+                "gap": 157,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 2.4 - 3 km WSW of Indios, Puerto Rico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.846,
+                    17.9796666666667,
+                    12.82
+                ]
+            },
+            "id": "pr71514378"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.51,
+                "place": "34 km W of Indian Springs, Nevada",
+                "time": 1776833050984,
+                "updated": 1776833613040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915987",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915987&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 97,
+                "net": "nn",
+                "code": "00915987",
+                "ids": ",us6000srz3,nn00915987,",
+                "sources": ",us,nn,",
+                "types": ",origin,phase-data,",
+                "nst": 35,
+                "dmin": 0.093,
+                "rms": 0.2389,
+                "gap": 62,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.5 - 34 km W of Indian Springs, Nevada"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.056,
+                    36.6073,
+                    8.9836
+                ]
+            },
+            "id": "nn00915987"
+        }
+    ],
+    "bbox": [
+        -151.872,
+        17.979666666667,
+        8.9836,
+        -66.846,
+        61.056,
+        88.9
+    ]
+}

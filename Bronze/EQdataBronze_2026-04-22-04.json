@@ -1,0 +1,301 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776834589000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-22T03:39:42&endtime=2026-04-22T04:39:42",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 7
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.6,
+                "place": "21 km SE of Pearsall, Texas",
+                "time": 1776832359650,
+                "updated": 1776832629031,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hwcqqy",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hwcqqy&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 39,
+                "net": "tx",
+                "code": "2026hwcqqy",
+                "ids": ",tx2026hwcqqy,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 8,
+                "dmin": 0.2,
+                "rms": 0.4,
+                "gap": 138,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 21 km SE of Pearsall, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -98.947,
+                    28.751,
+                    8.3758
+                ]
+            },
+            "id": "tx2026hwcqqy"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.5,
+                "place": "17 km S of Denali Park, Alaska",
+                "time": 1776832223640,
+                "updated": 1776832332627,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hwcosd",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hwcosd&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 35,
+                "net": "ak",
+                "code": "a2026hwcosd",
+                "ids": ",aka2026hwcosd,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 31,
+                "dmin": 0.2,
+                "rms": 0.7,
+                "gap": 58,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.5 - 17 km S of Denali Park, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -148.979,
+                    63.583,
+                    1.1
+                ]
+            },
+            "id": "aka2026hwcosd"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.11,
+                "place": "17 km SSE of Esperanza, Puerto Rico",
+                "time": 1776831802600,
+                "updated": 1776834301040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514363",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71514363&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 149,
+                "net": "pr",
+                "code": "71514363",
+                "ids": ",us6000srz4,pr71514363,",
+                "sources": ",us,pr,",
+                "types": ",origin,phase-data,",
+                "nst": 21,
+                "dmin": 0.3539,
+                "rms": 0.41,
+                "gap": 162,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 3.1 - 17 km SSE of Esperanza, Puerto Rico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.3773333333333,
+                    17.9633333333333,
+                    10.05
+                ]
+            },
+            "id": "pr71514363"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.15,
+                "place": "3 km SSW of Indios, Puerto Rico",
+                "time": 1776830877820,
+                "updated": 1776832567650,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514338",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71514338&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 153,
+                "net": "pr",
+                "code": "71514338",
+                "ids": ",us6000sryr,pr71514338,",
+                "sources": ",us,pr,",
+                "types": ",origin,phase-data,",
+                "nst": 32,
+                "dmin": 0.03906,
+                "rms": 0.3,
+                "gap": 176,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 3.2 - 3 km SSW of Indios, Puerto Rico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.8398333333333,
+                    17.9641666666667,
+                    12.64
+                ]
+            },
+            "id": "pr71514338"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.56,
+                "place": "3 km WNW of Delta, B.C., MX",
+                "time": 1776830750430,
+                "updated": 1776830956113,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446600",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41446600&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 101,
+                "net": "ci",
+                "code": "41446600",
+                "ids": ",ci41446600,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 24,
+                "dmin": 0.08442,
+                "rms": 0.33,
+                "gap": 55,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 3 km WNW of Delta, B.C., MX"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.2255,
+                    32.3683333333333,
+                    12.01
+                ]
+            },
+            "id": "ci41446600"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.23,
+                "place": "9 km WNW of Cobb, CA",
+                "time": 1776829632620,
+                "updated": 1776829727342,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349362",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349362&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 1,
+                "net": "nc",
+                "code": "75349362",
+                "ids": ",nc75349362,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 8,
+                "dmin": 0.009338,
+                "rms": 0.05,
+                "gap": 116,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 0.2 - 9 km WNW of Cobb, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.818832397461,
+                    38.8460006713867,
+                    2.5699999332428
+                ]
+            },
+            "id": "nc75349362"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.44,
+                "place": "7 km NW of The Geysers, CA",
+                "time": 1776829348800,
+                "updated": 1776829447459,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349357",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349357&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 3,
+                "net": "nc",
+                "code": "75349357",
+                "ids": ",nc75349357,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 11,
+                "dmin": 0.008625,
+                "rms": 0.02,
+                "gap": 80,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 0.4 - 7 km NW of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.818336486816,
+                    38.8176651000977,
+                    2.33999991416931
+                ]
+            },
+            "id": "nc75349357"
+        }
+    ],
+    "bbox": [
+        -148.979,
+        17.963333333333,
+        1.1,
+        -65.377333333333,
+        63.583,
+        12.64
+    ]
+}

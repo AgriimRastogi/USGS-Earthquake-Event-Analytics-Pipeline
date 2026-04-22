@@ -1,0 +1,421 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776834607000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-21T11:39:42&endtime=2026-04-21T12:39:42",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 10
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.73,
+                "place": "9 km NW of The Geysers, CA",
+                "time": 1776775115230,
+                "updated": 1776775209357,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349047",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349047&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 8,
+                "net": "nc",
+                "code": "75349047",
+                "ids": ",nc75349047,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 9,
+                "dmin": 0.005113,
+                "rms": 0.01,
+                "gap": 93,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 0.7 - 9 km NW of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.841331481934,
+                    38.8245010375977,
+                    1.77999997138977
+                ]
+            },
+            "id": "nc75349047"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.6,
+                "place": "25 km SSE of Midland, Texas",
+                "time": 1776774769421,
+                "updated": 1776775940255,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026huwvmy",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026huwvmy&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 39,
+                "net": "tx",
+                "code": "2026huwvmy",
+                "ids": ",tx2026huwvmy,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 24,
+                "dmin": 0,
+                "rms": 0.1,
+                "gap": 75,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 25 km SSE of Midland, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.991,
+                    31.777,
+                    7.2021
+                ]
+            },
+            "id": "tx2026huwvmy"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.31,
+                "place": "60 km WNW of Tyonek, Alaska",
+                "time": 1776774663650,
+                "updated": 1776810042770,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94159188",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=av94159188&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 1,
+                "net": "av",
+                "code": "94159188",
+                "ids": ",av94159188,",
+                "sources": ",av,",
+                "types": ",origin,phase-data,",
+                "nst": 0,
+                "dmin": 0.01384,
+                "rms": 0.189999998,
+                "gap": 93,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.3 - 60 km WNW of Tyonek, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -152.230667114258,
+                    61.1911659240723,
+                    7.57999992370605
+                ]
+            },
+            "id": "av94159188"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.7,
+                "place": "25 km SSE of Midland, Texas",
+                "time": 1776774294420,
+                "updated": 1776780160332,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026huwosh",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026huwosh&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 8,
+                "net": "tx",
+                "code": "2026huwosh",
+                "ids": ",tx2026huwosh,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 10,
+                "dmin": 0,
+                "rms": 0.2,
+                "gap": 83,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.7 - 25 km SSE of Midland, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.98,
+                    31.779,
+                    8.7646
+                ]
+            },
+            "id": "tx2026huwosh"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.9,
+                "place": "73 km SE of Perryville, Alaska",
+                "time": 1776773877660,
+                "updated": 1776774020455,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026huwitc",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026huwitc&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 56,
+                "net": "ak",
+                "code": "a2026huwitc",
+                "ids": ",aka2026huwitc,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 6,
+                "dmin": 0.8,
+                "rms": 0.3,
+                "gap": 316,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.9 - 73 km SE of Perryville, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -158.482,
+                    55.364,
+                    12.7
+                ]
+            },
+            "id": "aka2026huwitc"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": -0.67,
+                "place": "70 km NW of Ninilchik, Alaska",
+                "time": 1776773618830,
+                "updated": 1776809801530,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94159178",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=av94159178&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 0,
+                "net": "av",
+                "code": "94159178",
+                "ids": ",av94159178,",
+                "sources": ",av,",
+                "types": ",origin,phase-data,",
+                "nst": 6,
+                "dmin": 0.04024,
+                "rms": 0.31,
+                "gap": 248,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M -0.7 - 70 km NW of Ninilchik, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -152.665333333333,
+                    60.4466666666667,
+                    10.24
+                ]
+            },
+            "id": "av94159178"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.6,
+                "place": "24 km SSE of Midland, Texas",
+                "time": 1776773331286,
+                "updated": 1776775091262,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026huvzhj",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026huvzhj&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 39,
+                "net": "tx",
+                "code": "2026huvzhj",
+                "ids": ",tx2026huvzhj,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 30,
+                "dmin": 0,
+                "rms": 0.1,
+                "gap": 76,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 24 km SSE of Midland, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.993,
+                    31.784,
+                    7.251
+                ]
+            },
+            "id": "tx2026huvzhj"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.7,
+                "place": "25 km SSE of Midland, Texas",
+                "time": 1776773330948,
+                "updated": 1776813589134,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026huwbey",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026huwbey&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 44,
+                "net": "tx",
+                "code": "2026huwbey",
+                "ids": ",tx2026huwbey,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 64,
+                "dmin": 0,
+                "rms": 0.4,
+                "gap": 53,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.7 - 25 km SSE of Midland, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.999,
+                    31.776,
+                    3.0515
+                ]
+            },
+            "id": "tx2026huwbey"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.8,
+                "place": "76 km W of Salamatof, Alaska",
+                "time": 1776772424858,
+                "updated": 1776772668415,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026huvnwd",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026huvnwd&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 50,
+                "net": "ak",
+                "code": "a2026huvnwd",
+                "ids": ",aka2026huvnwd,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 40,
+                "dmin": 0.1,
+                "rms": 0.5,
+                "gap": 121,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.8 - 76 km W of Salamatof, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -152.711,
+                    60.68,
+                    133.7
+                ]
+            },
+            "id": "aka2026huvnwd"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.3,
+                "place": "10 km NW of Point MacKenzie, Alaska",
+                "time": 1776771703901,
+                "updated": 1776771803945,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026huvdmf",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026huvdmf&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 26,
+                "net": "ak",
+                "code": "a2026huvdmf",
+                "ids": ",aka2026huvdmf,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 23,
+                "dmin": 0.4,
+                "rms": 0.7,
+                "gap": 78,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.3 - 10 km NW of Point MacKenzie, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -150.097,
+                    61.439,
+                    30.6
+                ]
+            },
+            "id": "aka2026huvdmf"
+        }
+    ],
+    "bbox": [
+        -158.482,
+        31.776,
+        1.7799999713898,
+        -101.98,
+        61.439,
+        133.7
+    ]
+}

@@ -1,0 +1,621 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776834602000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-21T16:39:42&endtime=2026-04-21T17:39:42",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 15
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.2,
+                "place": "6 km W of Dutch Harbor, Alaska",
+                "time": 1776792900670,
+                "updated": 1776814097560,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94159503",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=av94159503&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 1,
+                "net": "av",
+                "code": "94159503",
+                "ids": ",av94159503,",
+                "sources": ",av,",
+                "types": ",origin,phase-data,",
+                "nst": 6,
+                "dmin": 0.03067,
+                "rms": 0.18,
+                "gap": 141,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.2 - 6 km W of Dutch Harbor, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -166.6385,
+                    53.8956666666667,
+                    7.31
+                ]
+            },
+            "id": "av94159503"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": -0.3,
+                "place": "6 km WNW of Dutch Harbor, Alaska",
+                "time": 1776792881350,
+                "updated": 1776814217740,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93058269",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=av93058269&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 0,
+                "net": "av",
+                "code": "93058269",
+                "ids": ",av93058269,",
+                "sources": ",av,",
+                "types": ",origin,phase-data,",
+                "nst": 4,
+                "dmin": 0.04818,
+                "rms": 0.08,
+                "gap": 225,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M -0.3 - 6 km WNW of Dutch Harbor, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -166.629666666667,
+                    53.9178333333333,
+                    7.12
+                ]
+            },
+            "id": "av93058269"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": -0.97,
+                "place": "60 km ENE of Pedro Bay, Alaska",
+                "time": 1776792852820,
+                "updated": 1776813917270,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94159498",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=av94159498&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 0,
+                "net": "av",
+                "code": "94159498",
+                "ids": ",av94159498,",
+                "sources": ",av,",
+                "types": ",origin,phase-data,",
+                "nst": 4,
+                "dmin": 0.04816,
+                "rms": 0.06,
+                "gap": 190,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M -1.0 - 60 km ENE of Pedro Bay, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -153.111333333333,
+                    60.0043333333333,
+                    -2.34
+                ]
+            },
+            "id": "av94159498"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": -0.02,
+                "place": "6 km WNW of Dutch Harbor, Alaska",
+                "time": 1776792630640,
+                "updated": 1776813766960,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av93058264",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=av93058264&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 0,
+                "net": "av",
+                "code": "93058264",
+                "ids": ",av93058264,",
+                "sources": ",av,",
+                "types": ",origin,phase-data,",
+                "nst": 5,
+                "dmin": 0.03969,
+                "rms": 0.12,
+                "gap": 215,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.0 - 6 km WNW of Dutch Harbor, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -166.636166666667,
+                    53.9096666666667,
+                    8.1
+                ]
+            },
+            "id": "av93058264"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.65,
+                "place": "6 km W of Dutch Harbor, Alaska",
+                "time": 1776792611030,
+                "updated": 1776813646720,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94159493",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=av94159493&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 6,
+                "net": "av",
+                "code": "94159493",
+                "ids": ",av94159493,",
+                "sources": ",av,",
+                "types": ",origin,phase-data,",
+                "nst": 8,
+                "dmin": 0.02881,
+                "rms": 0.21,
+                "gap": 139,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.7 - 6 km W of Dutch Harbor, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -166.6435,
+                    53.8973333333333,
+                    8.52
+                ]
+            },
+            "id": "av94159493"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.3,
+                "place": "52 km S of Whites City, New Mexico",
+                "time": 1776792452032,
+                "updated": 1776799885673,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hvgplj",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hvgplj&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 1,
+                "net": "tx",
+                "code": "2026hvgplj",
+                "ids": ",tx2026hvgplj,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 6,
+                "dmin": 0,
+                "rms": 0,
+                "gap": 197,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.3 - 52 km S of Whites City, New Mexico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.422,
+                    31.7,
+                    3.9209
+                ]
+            },
+            "id": "tx2026hvgplj"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.54,
+                "place": "6 km W of Dutch Harbor, Alaska",
+                "time": 1776792396310,
+                "updated": 1776813466460,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94159483",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=av94159483&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 4,
+                "net": "av",
+                "code": "94159483",
+                "ids": ",av94159483,",
+                "sources": ",av,",
+                "types": ",origin,phase-data,",
+                "nst": 8,
+                "dmin": 0.02732,
+                "rms": 0.2,
+                "gap": 137,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.5 - 6 km W of Dutch Harbor, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -166.644666666667,
+                    53.8955,
+                    8.04
+                ]
+            },
+            "id": "av94159483"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.9,
+                "place": "15 km NNW of Midland, Texas",
+                "time": 1776792163957,
+                "updated": 1776792998215,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hvgljk",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hvgljk&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 12,
+                "net": "tx",
+                "code": "2026hvgljk",
+                "ids": ",tx2026hvgljk,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 16,
+                "dmin": 0,
+                "rms": 0.1,
+                "gap": 71,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.9 - 15 km NNW of Midland, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -102.161,
+                    32.115,
+                    5.9082
+                ]
+            },
+            "id": "tx2026hvgljk"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2,
+                "place": "17 km SE of Silver Springs, Nevada",
+                "time": 1776791249186,
+                "updated": 1776791761864,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00915957",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nn00915957&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 62,
+                "net": "nn",
+                "code": "00915957",
+                "ids": ",nn00915957,",
+                "sources": ",nn,",
+                "types": ",origin,phase-data,",
+                "nst": 24,
+                "dmin": 0.062,
+                "rms": 0.1492,
+                "gap": 62,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.0 - 17 km SE of Silver Springs, Nevada"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.074,
+                    39.3076,
+                    10.5329
+                ]
+            },
+            "id": "nn00915957"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.1,
+                "place": "61 km NNW of Yakutat, Alaska",
+                "time": 1776791213008,
+                "updated": 1776791354411,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hvfxrw",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hvfxrw&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 68,
+                "net": "ak",
+                "code": "a2026hvfxrw",
+                "ids": ",aka2026hvfxrw,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 23,
+                "dmin": 0.6,
+                "rms": 0.7,
+                "gap": 124,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.1 - 61 km NNW of Yakutat, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -140.28,
+                    60.028,
+                    0.2
+                ]
+            },
+            "id": "aka2026hvfxrw"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.56,
+                "place": "8 km SW of Volcano, Hawaii",
+                "time": 1776791167900,
+                "updated": 1776824118130,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74940772",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74940772&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 5,
+                "net": "hv",
+                "code": "74940772",
+                "ids": ",hv74940772,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 16,
+                "dmin": 0.004387,
+                "rms": 0.12,
+                "gap": 90,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 0.6 - 8 km SW of Volcano, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.279833333333,
+                    19.3825,
+                    1.06
+                ]
+            },
+            "id": "hv74940772"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": -0.75,
+                "place": "63 km ENE of Pedro Bay, Alaska",
+                "time": 1776790881450,
+                "updated": 1776812925930,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94159443",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=av94159443&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 0,
+                "net": "av",
+                "code": "94159443",
+                "ids": ",av94159443,",
+                "sources": ",av,",
+                "types": ",origin,phase-data,",
+                "nst": 4,
+                "dmin": 0.01953,
+                "rms": 0.12,
+                "gap": 138,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M -0.8 - 63 km ENE of Pedro Bay, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -153.050166666667,
+                    60.005,
+                    4.72
+                ]
+            },
+            "id": "av94159443"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.04,
+                "place": "2 km NW of The Geysers, CA",
+                "time": 1776790501540,
+                "updated": 1776790599332,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349167",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349167&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 17,
+                "net": "nc",
+                "code": "75349167",
+                "ids": ",nc75349167,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 12,
+                "dmin": 0.01389,
+                "rms": 0.03,
+                "gap": 95,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.0 - 2 km NW of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.767166137695,
+                    38.7879981994629,
+                    1.66999995708466
+                ]
+            },
+            "id": "nc75349167"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.06,
+                "place": "14 km SSW of Santa Barbara, CA",
+                "time": 1776790126330,
+                "updated": 1776790823841,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446344",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41446344&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 65,
+                "net": "ci",
+                "code": "41446344",
+                "ids": ",ci41446344,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 28,
+                "dmin": 0.14,
+                "rms": 0.28,
+                "gap": 112,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.1 - 14 km SSW of Santa Barbara, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.743666666667,
+                    34.3025,
+                    -0.35
+                ]
+            },
+            "id": "ci41446344"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.32,
+                "place": "7 km SW of Volcano, Hawaii",
+                "time": 1776789974820,
+                "updated": 1776807149210,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74940757",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74940757&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 27,
+                "net": "hv",
+                "code": "74940757",
+                "ids": ",hv74940757,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 21,
+                "dmin": 0.001054,
+                "rms": 0.09,
+                "gap": 69,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.3 - 7 km SW of Volcano, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.280666666667,
+                    19.3861666666667,
+                    1.39
+                ]
+            },
+            "id": "hv74940757"
+        }
+    ],
+    "bbox": [
+        -166.64466666667,
+        19.3825,
+        -2.34,
+        -102.161,
+        60.028,
+        10.5329
+    ]
+}

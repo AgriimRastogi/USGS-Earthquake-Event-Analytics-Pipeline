@@ -1,0 +1,581 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776834601000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-21T17:39:42&endtime=2026-04-21T18:39:42",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 14
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.1,
+                "place": "19 km ENE of Thousand Palms, CA",
+                "time": 1776796171720,
+                "updated": 1776796653534,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446408",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41446408&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 19,
+                "net": "ci",
+                "code": "41446408",
+                "ids": ",ci41446408,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 39,
+                "dmin": 0.04396,
+                "rms": 0.17,
+                "gap": 60,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.1 - 19 km ENE of Thousand Palms, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.2085,
+                    33.8925,
+                    8.64
+                ]
+            },
+            "id": "ci41446408"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.3,
+                "place": "54 km NNE of Kelly, Wyoming",
+                "time": 1776795954320,
+                "updated": 1776798408350,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80137446",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uu80137446&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 26,
+                "net": "uu",
+                "code": "80137446",
+                "ids": ",uu80137446,",
+                "sources": ",uu,",
+                "types": ",origin,phase-data,",
+                "nst": 12,
+                "dmin": 0.2145,
+                "rms": 0.09,
+                "gap": 189,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.3 - 54 km NNE of Kelly, Wyoming"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -110.370666666667,
+                    44.0816666666667,
+                    7.84
+                ]
+            },
+            "id": "uu80137446"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.8,
+                "place": "49 km NW of Toyah, Texas",
+                "time": 1776795299937,
+                "updated": 1776802150215,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hvibfd",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hvibfd&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 50,
+                "net": "tx",
+                "code": "2026hvibfd",
+                "ids": ",tx2026hvibfd,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 41,
+                "dmin": 0.1,
+                "rms": 0.2,
+                "gap": 67,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.8 - 49 km NW of Toyah, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.191,
+                    31.606,
+                    6.1127
+                ]
+            },
+            "id": "tx2026hvibfd"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.5,
+                "place": "28 km WNW of Volcano, Hawaii",
+                "time": 1776795239990,
+                "updated": 1776822828160,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74940817",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74940817&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 35,
+                "net": "hv",
+                "code": "74940817",
+                "ids": ",hv74940817,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 8,
+                "dmin": 0.04278,
+                "rms": 0.12,
+                "gap": 113,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.5 - 28 km WNW of Volcano, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.4975,
+                    19.5115,
+                    -0.92
+                ]
+            },
+            "id": "hv74940817"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.35,
+                "place": "5 km NW of The Geysers, CA",
+                "time": 1776795076760,
+                "updated": 1776795174882,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349177",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349177&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 2,
+                "net": "nc",
+                "code": "75349177",
+                "ids": ",nc75349177,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 8,
+                "dmin": 0.008306,
+                "rms": 0.01,
+                "gap": 139,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 0.4 - 5 km NW of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.793502807617,
+                    38.8161659240723,
+                    3.5699999332428
+                ]
+            },
+            "id": "nc75349177"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.2,
+                "place": "25 km S of Westbrook, Texas",
+                "time": 1776794905593,
+                "updated": 1776795634281,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hvhypc",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hvhypc&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 74,
+                "net": "tx",
+                "code": "2026hvhypc",
+                "ids": ",tx2026hvhypc,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 38,
+                "dmin": 0.2,
+                "rms": 0.1,
+                "gap": 89,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.2 - 25 km S of Westbrook, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.057,
+                    32.128,
+                    8.6914
+                ]
+            },
+            "id": "tx2026hvhypc"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.99,
+                "place": "5 km N of Lake Elsinore, CA",
+                "time": 1776794858850,
+                "updated": 1776804354657,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446384",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41446384&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 15,
+                "net": "ci",
+                "code": "41446384",
+                "ids": ",ci41446384,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 21,
+                "dmin": 0.03954,
+                "rms": 0.18,
+                "gap": 70,
+                "magType": "ml",
+                "type": "quarry blast",
+                "title": "M 1.0 Quarry Blast - 5 km N of Lake Elsinore, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.336,
+                    33.7136666666667,
+                    -0.53
+                ]
+            },
+            "id": "ci41446384"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.76,
+                "place": "6 km W of Dutch Harbor, Alaska",
+                "time": 1776794699330,
+                "updated": 1776814699210,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94159553",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=av94159553&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 9,
+                "net": "av",
+                "code": "94159553",
+                "ids": ",av94159553,",
+                "sources": ",av,",
+                "types": ",origin,phase-data,",
+                "nst": 8,
+                "dmin": 0.03265,
+                "rms": 0.14,
+                "gap": 144,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.8 - 6 km W of Dutch Harbor, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -166.639,
+                    53.9003333333333,
+                    7.78
+                ]
+            },
+            "id": "av94159553"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.06,
+                "place": "27 km NNW of P\u0101hala, Hawaii",
+                "time": 1776794562600,
+                "updated": 1776794769310,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74940802",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74940802&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 65,
+                "net": "hv",
+                "code": "74940802",
+                "ids": ",hv74940802,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 29,
+                "dmin": 0.0317,
+                "rms": 0.180000007,
+                "gap": 86,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 2.1 - 27 km NNW of P\u0101hala, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.56916809082,
+                    19.4360008239746,
+                    39
+                ]
+            },
+            "id": "hv74940802"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.34,
+                "place": "107 km N of San Juan, Puerto Rico",
+                "time": 1776794559800,
+                "updated": 1776799099040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514288",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71514288&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 172,
+                "net": "pr",
+                "code": "71514288",
+                "ids": ",us6000srvm,pr71514288,",
+                "sources": ",us,pr,",
+                "types": ",origin,phase-data,",
+                "nst": 14,
+                "dmin": 1.071,
+                "rms": 0.23,
+                "gap": 288,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 3.3 - 107 km N of San Juan, Puerto Rico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.0048333333333,
+                    19.4311666666667,
+                    29.58
+                ]
+            },
+            "id": "pr71514288"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.8,
+                "place": "20 km NW of Stanton, Texas",
+                "time": 1776794474666,
+                "updated": 1776796257734,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hvhske",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hvhske&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 10,
+                "net": "tx",
+                "code": "2026hvhske",
+                "ids": ",tx2026hvhske,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 22,
+                "dmin": 0,
+                "rms": 0.1,
+                "gap": 52,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.8 - 20 km NW of Stanton, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.918,
+                    32.277,
+                    8.4229
+                ]
+            },
+            "id": "tx2026hvhske"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.47,
+                "place": "45 km NE of Holtville, CA",
+                "time": 1776793811030,
+                "updated": 1776804085700,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446368",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=ci41446368&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 33,
+                "net": "ci",
+                "code": "41446368",
+                "ids": ",ci41446368,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 14,
+                "dmin": 0.07634,
+                "rms": 0.26,
+                "gap": 79,
+                "magType": "ml",
+                "type": "quarry blast",
+                "title": "M 1.5 Quarry Blast - 45 km NE of Holtville, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.9895,
+                    33.0481666666667,
+                    -0.24
+                ]
+            },
+            "id": "ci41446368"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.56,
+                "place": "3 km NE of Lake Marcel-Stillwater, Washington",
+                "time": 1776793457770,
+                "updated": 1776797846520,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62245141",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62245141&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 37,
+                "net": "uw",
+                "code": "62245141",
+                "ids": ",uw62245141,",
+                "sources": ",uw,",
+                "types": ",origin,phase-data,",
+                "nst": 33,
+                "dmin": 0.05511,
+                "rms": 0.21,
+                "gap": 66,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 3 km NE of Lake Marcel-Stillwater, Washington"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.88116666666667,
+                    47.70933333333333,
+                    11.98
+                ]
+            },
+            "id": "uw62245141"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.7,
+                "place": "68 km NW of Karluk, Alaska",
+                "time": 1776793210789,
+                "updated": 1776793459276,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hvhakg",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hvhakg&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 44,
+                "net": "ak",
+                "code": "a2026hvhakg",
+                "ids": ",aka2026hvhakg,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 43,
+                "dmin": 0.1,
+                "rms": 0.4,
+                "gap": 128,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.7 - 68 km NW of Karluk, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.111,
+                    58.08,
+                    88.6
+                ]
+            },
+            "id": "aka2026hvhakg"
+        }
+    ],
+    "bbox": [
+        -166.639,
+        19.431166666667,
+        -0.92,
+        -66.004833333333,
+        58.08,
+        88.6
+    ]
+}

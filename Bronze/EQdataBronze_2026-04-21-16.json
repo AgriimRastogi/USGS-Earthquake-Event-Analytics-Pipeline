@@ -1,0 +1,421 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776834603000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-21T15:39:42&endtime=2026-04-21T16:39:42",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 10
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.1,
+                "place": "19 km S of Ackerly, Texas",
+                "time": 1776789171218,
+                "updated": 1776792751539,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hveuex",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hveuex&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 19,
+                "net": "tx",
+                "code": "2026hveuex",
+                "ids": ",tx2026hveuex,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 29,
+                "dmin": 0,
+                "rms": 0.2,
+                "gap": 43,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.1 - 19 km S of Ackerly, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.699,
+                    32.352,
+                    5.0537
+                ]
+            },
+            "id": "tx2026hveuex"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.4,
+                "place": "11 km WSW of Stanton, Texas",
+                "time": 1776788501208,
+                "updated": 1776799045970,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hvektq",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hvektq&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 30,
+                "net": "tx",
+                "code": "2026hvektq",
+                "ids": ",tx2026hvektq,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 28,
+                "dmin": 0.1,
+                "rms": 0.1,
+                "gap": 65,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.4 - 11 km WSW of Stanton, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.908,
+                    32.104,
+                    7.0801
+                ]
+            },
+            "id": "tx2026hvektq"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.5,
+                "place": "24 km ESE of Laraos, Peru",
+                "time": 1776788335418,
+                "updated": 1776795110040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srv3",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000srv3&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 312,
+                "net": "us",
+                "code": "6000srv3",
+                "ids": ",us6000srv3,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 44,
+                "dmin": 1.315,
+                "rms": 0.74,
+                "gap": 117,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.5 - 24 km ESE of Laraos, Peru"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.5727,
+                    -12.425,
+                    102.261
+                ]
+            },
+            "id": "us6000srv3"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.4,
+                "place": "35 km E of Noda, Japan",
+                "time": 1776788290843,
+                "updated": 1776794460040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000srv5",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000srv5&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 298,
+                "net": "us",
+                "code": "6000srv5",
+                "ids": ",us6000srv5,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 60,
+                "dmin": 1.138,
+                "rms": 0.73,
+                "gap": 117,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.4 - 35 km E of Noda, Japan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    142.2292,
+                    40.0783,
+                    50.385
+                ]
+            },
+            "id": "us6000srv5"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2,
+                "place": "11 km WSW of Stanton, Texas",
+                "time": 1776788050546,
+                "updated": 1776791309566,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hveehb",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hveehb&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 62,
+                "net": "tx",
+                "code": "2026hveehb",
+                "ids": ",tx2026hveehb,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 47,
+                "dmin": 0.1,
+                "rms": 0.1,
+                "gap": 37,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.0 - 11 km WSW of Stanton, Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -101.906,
+                    32.106,
+                    7.3242
+                ]
+            },
+            "id": "tx2026hveehb"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.14,
+                "place": "7 km W of Cobb, CA",
+                "time": 1776788038530,
+                "updated": 1776790041707,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349152",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349152&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 20,
+                "net": "nc",
+                "code": "75349152",
+                "ids": ",nc75349152,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 16,
+                "dmin": 0.01075,
+                "rms": 0.03,
+                "gap": 48,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.1 - 7 km W of Cobb, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.800331115723,
+                    38.8310012817383,
+                    1.97000002861023
+                ]
+            },
+            "id": "nc75349152"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.81,
+                "place": "149 km W of Adak, Alaska",
+                "time": 1776787805070,
+                "updated": 1776797010440,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/av94159398",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=av94159398&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 10,
+                "net": "av",
+                "code": "94159398",
+                "ids": ",av94159398,",
+                "sources": ",av,",
+                "types": ",origin,phase-data,",
+                "nst": 5,
+                "dmin": 0.0189,
+                "rms": 0.12,
+                "gap": 124,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.8 - 149 km W of Adak, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -178.789666666667,
+                    51.7766666666667,
+                    10.89
+                ]
+            },
+            "id": "av94159398"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1,
+                "place": "7 km W of Cobb, CA",
+                "time": 1776787503310,
+                "updated": 1776787600036,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349147",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349147&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 15,
+                "net": "nc",
+                "code": "75349147",
+                "ids": ",nc75349147,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 11,
+                "dmin": 0.01038,
+                "rms": 0.02,
+                "gap": 108,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.0 - 7 km W of Cobb, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.802169799805,
+                    38.833667755127,
+                    2.39000010490417
+                ]
+            },
+            "id": "nc75349147"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.3,
+                "place": "28 km SW of Jal, New Mexico",
+                "time": 1776786368741,
+                "updated": 1776802690692,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026hvdgdv",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=tx2026hvdgdv&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 26,
+                "net": "tx",
+                "code": "2026hvdgdv",
+                "ids": ",tx2026hvdgdv,",
+                "sources": ",tx,",
+                "types": ",origin,phase-data,",
+                "nst": 10,
+                "dmin": 0,
+                "rms": 0.1,
+                "gap": 81,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.3 - 28 km SW of Jal, New Mexico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -103.396,
+                    31.928,
+                    6.4331
+                ]
+            },
+            "id": "tx2026hvdgdv"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.96,
+                "place": "7 km N of P\u0101hala, Hawaii",
+                "time": 1776786354130,
+                "updated": 1776797262670,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74940742",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74940742&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 59,
+                "net": "hv",
+                "code": "74940742",
+                "ids": ",hv74940742,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 42,
+                "dmin": 0.03518,
+                "rms": 0.13,
+                "gap": 100,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.0 - 7 km N of P\u0101hala, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.468,
+                    19.268,
+                    28.07
+                ]
+            },
+            "id": "hv74940742"
+        }
+    ],
+    "bbox": [
+        -178.78966666667,
+        -12.425,
+        1.9700000286102,
+        142.2292,
+        51.776666666667,
+        102.261
+    ]
+}

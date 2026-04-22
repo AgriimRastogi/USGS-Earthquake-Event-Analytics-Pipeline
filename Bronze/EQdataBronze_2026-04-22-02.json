@@ -1,0 +1,301 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776834592000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-04-22T01:39:42&endtime=2026-04-22T02:39:42",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "2.4.0",
+        "count": 7
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.8,
+                "place": "21 km S of Nelchina, Alaska",
+                "time": 1776824984754,
+                "updated": 1776826147040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hvyotm",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hvyotm&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 121,
+                "net": "ak",
+                "code": "a2026hvyotm",
+                "ids": ",us6000sryf,aka2026hvyotm,",
+                "sources": ",us,ak,",
+                "types": ",origin,phase-data,",
+                "nst": 85,
+                "dmin": 0.4,
+                "rms": 0.9,
+                "gap": 26,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.8 - 21 km S of Nelchina, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -146.8,
+                    61.804,
+                    8.7
+                ]
+            },
+            "id": "aka2026hvyotm"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.86,
+                "place": "3 km SW of Indios, Puerto Rico",
+                "time": 1776824746580,
+                "updated": 1776825903470,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71514308",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=pr71514308&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 126,
+                "net": "pr",
+                "code": "71514308",
+                "ids": ",pr71514308,",
+                "sources": ",pr,",
+                "types": ",origin,phase-data,",
+                "nst": 24,
+                "dmin": 0.03836,
+                "rms": 0.2,
+                "gap": 174,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 2.9 - 3 km SW of Indios, Puerto Rico"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.8396666666667,
+                    17.9678333333333,
+                    12.97
+                ]
+            },
+            "id": "pr71514308"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.6,
+                "place": "64 km NE of Whittier, Alaska",
+                "time": 1776824132120,
+                "updated": 1776830328739,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hvycna",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hvycna&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 39,
+                "net": "ak",
+                "code": "a2026hvycna",
+                "ids": ",aka2026hvycna,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 7,
+                "dmin": 0.4,
+                "rms": 0.7,
+                "gap": 181,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 64 km NE of Whittier, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -147.78,
+                    61.147,
+                    53.8
+                ]
+            },
+            "id": "aka2026hvycna"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.79,
+                "place": "8 km W of Cobb, CA",
+                "time": 1776824117020,
+                "updated": 1776824211609,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349337",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=nc75349337&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 10,
+                "net": "nc",
+                "code": "75349337",
+                "ids": ",nc75349337,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 7,
+                "dmin": 0.01396,
+                "rms": 0.01,
+                "gap": 71,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 0.8 - 8 km W of Cobb, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.816833496094,
+                    38.8363342285156,
+                    1.53999996185303
+                ]
+            },
+            "id": "nc75349337"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.7,
+                "place": "52 km W of Salamatof, Alaska",
+                "time": 1776823848197,
+                "updated": 1776824034656,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hvxykl",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=aka2026hvxykl&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 44,
+                "net": "ak",
+                "code": "a2026hvxykl",
+                "ids": ",aka2026hvxykl,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 48,
+                "dmin": 0.2,
+                "rms": 0.6,
+                "gap": 95,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.7 - 52 km W of Salamatof, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -152.255,
+                    60.705,
+                    92.6
+                ]
+            },
+            "id": "aka2026hvxykl"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.06,
+                "place": "7 km SE of Mineral, Washington",
+                "time": 1776823689100,
+                "updated": 1776826836810,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw62245381",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=uw62245381&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 17,
+                "net": "uw",
+                "code": "62245381",
+                "ids": ",uw62245381,",
+                "sources": ",uw,",
+                "types": ",origin,phase-data,",
+                "nst": 51,
+                "dmin": 0.1094,
+                "rms": 0.12,
+                "gap": 46,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.1 - 7 km SE of Mineral, Washington"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.1225,
+                    46.66766666666667,
+                    20.91
+                ]
+            },
+            "id": "uw62245381"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.82,
+                "place": "1 km SW of P\u0101hala, Hawaii",
+                "time": 1776823517800,
+                "updated": 1776823743480,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74941192",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=hv74941192&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 51,
+                "net": "hv",
+                "code": "74941192",
+                "ids": ",hv74941192,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 28,
+                "dmin": 0.04568,
+                "rms": 0.170000002,
+                "gap": 155,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.8 - 1 km SW of P\u0101hala, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.492004394531,
+                    19.191499710083,
+                    35.0499992370605
+                ]
+            },
+            "id": "hv74941192"
+        }
+    ],
+    "bbox": [
+        -155.49200439453,
+        17.967833333333,
+        1.539999961853,
+        -66.839666666667,
+        61.804,
+        92.6
+    ]
+}
