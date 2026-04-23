@@ -1,0 +1,261 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1776855230000,
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+        "title": "USGS All Earthquakes, Past Hour",
+        "status": 200,
+        "api": "2.3.0",
+        "count": 6
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.78,
+                "place": "6 km N of Pittsburg, Oklahoma",
+                "time": 1776855007556,
+                "updated": 1776855102271,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026hvqh",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ok2026hvqh.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 49,
+                "net": "ok",
+                "code": "2026hvqh",
+                "ids": ",ok2026hvqh,",
+                "sources": ",ok,",
+                "types": ",origin,phase-data,",
+                "nst": 19,
+                "dmin": 0.5269575715,
+                "rms": 0.4034166616,
+                "gap": 137.003418,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.8 - 6 km N of Pittsburg, Oklahoma"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.83917999,
+                    34.77051926,
+                    3.09665823
+                ]
+            },
+            "id": "ok2026hvqh"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.08,
+                "place": "1 km E of The Geysers, CA",
+                "time": 1776854834450,
+                "updated": 1776854928699,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75349477",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75349477.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 18,
+                "net": "nc",
+                "code": "75349477",
+                "ids": ",nc75349477,",
+                "sources": ",nc,",
+                "types": ",nearby-cities,origin,phase-data,",
+                "nst": 11,
+                "dmin": 0.00459,
+                "rms": 0.02,
+                "gap": 75,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 1.1 - 1 km E of The Geysers, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.73983001709,
+                    38.7793350219727,
+                    0.980000019073486
+                ]
+            },
+            "id": "nc75349477"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.5,
+                "place": "49 km N of Petersville, Alaska",
+                "time": 1776853735122,
+                "updated": 1776853840452,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026hwollv",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/aka2026hwollv.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 35,
+                "net": "ak",
+                "code": "a2026hwollv",
+                "ids": ",aka2026hwollv,",
+                "sources": ",ak,",
+                "types": ",origin,phase-data,",
+                "nst": 29,
+                "dmin": 0.4,
+                "rms": 0.6,
+                "gap": 85,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.5 - 49 km N of Petersville, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -150.751,
+                    62.94,
+                    110.7
+                ]
+            },
+            "id": "aka2026hwollv"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.98,
+                "place": "19 km ESE of Naalehu, Hawaii",
+                "time": 1776852997120,
+                "updated": 1776853211290,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74941432",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74941432.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 60,
+                "net": "hv",
+                "code": "74941432",
+                "ids": ",hv74941432,",
+                "sources": ",hv,",
+                "types": ",origin,phase-data,",
+                "nst": 36,
+                "dmin": 0.1484,
+                "rms": 0.180000007,
+                "gap": 214,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 2.0 - 19 km ESE of Naalehu, Hawaii"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -155.406829833984,
+                    19.015832901001,
+                    31.4099998474121
+                ]
+            },
+            "id": "hv74941432"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 0.9,
+                "place": "15 km ESE of Anza, CA",
+                "time": 1776852635440,
+                "updated": 1776852844828,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446640",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41446640.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 12,
+                "net": "ci",
+                "code": "41446640",
+                "ids": ",ci41446640,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 51,
+                "dmin": 0.07104,
+                "rms": 0.18,
+                "gap": 33,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 0.9 - 15 km ESE of Anza, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.5225,
+                    33.5195,
+                    12.85
+                ]
+            },
+            "id": "ci41446640"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.22,
+                "place": "6 km NNE of North Shore, CA",
+                "time": 1776851755510,
+                "updated": 1776851969768,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41446632",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41446632.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "automatic",
+                "tsunami": 0,
+                "sig": 23,
+                "net": "ci",
+                "code": "41446632",
+                "ids": ",ci41446632,",
+                "sources": ",ci,",
+                "types": ",nearby-cities,origin,phase-data,scitech-link,",
+                "nst": 42,
+                "dmin": 0.03228,
+                "rms": 0.23,
+                "gap": 48,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.2 - 6 km NNE of North Shore, CA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.919666666667,
+                    33.5793333333333,
+                    6.78
+                ]
+            },
+            "id": "ci41446632"
+        }
+    ],
+    "bbox": [
+        -155.40682983398,
+        19.015832901001,
+        0.98000001907349,
+        -95.83917999,
+        62.94,
+        110.7
+    ]
+}

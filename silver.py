@@ -8,7 +8,6 @@ import logging
 import sqlalchemy
 
 
-
 with open('config.yaml', 'r') as f:
     config = yaml.safe_load(f)
 
@@ -71,7 +70,8 @@ if __name__ == '__main__':  #We need this because of geocoder file handling issu
         #save flat file     
         silver_path=f"{config['directories']['silver']}EQdataSilver_{timestamp}.parquet"
         df.to_parquet(silver_path, index=False)
-        df.to_sql('Silver_flattened_data',eng,if_exists='append',index=False)
+        df.to_sql('silver_flattened_data',eng,if_exists='append',index=False)
+        
         logging.info('Flat file saved successfully')
         logging.info('Silver Data Table Appended successfully')
     else:

@@ -14,3 +14,6 @@ pipeline:
 
 logging:
   file_name: "pipeline.log"
+
+retry:
+  num: 3
